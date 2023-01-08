@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5000053535101690914}
   - component: {fileID: 6258993697504647180}
-  - component: {fileID: -1144030445217026628}
   m_Layer: 5
   m_Name: Main Player
   m_TagString: Untagged
@@ -55,26 +54,6 @@ MonoBehaviour:
   Damage: 3
   maxHP: 35
   currentHP: 35
---- !u!95 &-1144030445217026628
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7315367329798107609}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: f0dadb2dd77f9fd478ec3fefee20bdd0, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
 --- !u!1001 &8353214895901104220
 PrefabInstance:
   m_ObjectHideFlags: 0

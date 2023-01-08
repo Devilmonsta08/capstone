@@ -8,7 +8,9 @@ public enum BattleHandler { START, PLAYERTURN, ENEMYTURN, WON, LOST }
 
 public class BattleSystem : MonoBehaviour
 {
+    private Animator PlayerAnim;
 
+    private Animator EnemyAnim;
     public GameObject PlayerPrefab;
     public GameObject EnemyPrefab;
     
@@ -49,9 +51,11 @@ public class BattleSystem : MonoBehaviour
         QandA.SetActive(false);
         GameObject PlayerGO = Instantiate(PlayerPrefab, PlayerPostion);
         PlayerStats = PlayerGO.GetComponent<Stats>();
+        PlayerAnim = PlayerGO.transform.GetComponentInChildren<Animator>();
 
         GameObject EnemyGo = Instantiate(EnemyPrefab, EnemyPostion);
         EnemyStats = EnemyGo.GetComponent<Stats>();
+        EnemyAnim = EnemyGo.transform.GetComponentInChildren<Animator>();
 
         
         playerHUD.HUD(PlayerStats);
@@ -69,7 +73,8 @@ public class BattleSystem : MonoBehaviour
     public void PlayerAttack()
     {
         
-        
+        PlayerAnim.SetTrigger("Attacking");
+        EnemyAnim.SetTrigger("DamageEnemy");
         bool Attack  = EnemyStats.TakeDamage(PlayerStats.Damage);
         
         EnemyHUD.SetHP(EnemyStats.currentHP);
@@ -93,7 +98,8 @@ public class BattleSystem : MonoBehaviour
 
     public void EnemyTurn()
     {
-        
+        EnemyAnim.SetTrigger("AttackingEnemy");
+        PlayerAnim.SetTrigger("Damage");
         QandA.SetActive(false);
         
         
