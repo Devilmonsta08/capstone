@@ -564,7 +564,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 177772107}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 275550785}
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_MethodName: LoadGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &177772107
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -791,6 +803,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9178be7b4d2f1048ae5231670a139de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  charDB: {fileID: 0}
 --- !u!1 &275550783
 GameObject:
   m_ObjectHideFlags: 0
@@ -845,6 +858,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9178be7b4d2f1048ae5231670a139de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  charDB: {fileID: 11400000, guid: 9f1ade49099cbec4a9797fa6b1f8ac19, type: 2}
 --- !u!1 &348072851
 GameObject:
   m_ObjectHideFlags: 0

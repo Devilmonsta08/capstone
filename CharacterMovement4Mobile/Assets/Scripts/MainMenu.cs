@@ -1,13 +1,36 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class MainMenu : MonoBehaviour
 {
+    [SerializeField] private CharacterDatabase charDB;
+    private void Start()
+    {
+        string path = Application.persistentDataPath + "/dunamis.eyy";
+        if (File.Exists(path))
+        {
+            transform.GetChild(2).GetComponent<Button>().interactable = true;
+        }
+        else
+        {
+            transform.GetChild(2).GetComponent<Button>().interactable = false;
+        }
+    }
+
     public void PlayGame ()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        charDB.isLoad = false;    
+    }
+
+    public void LoadGame()
+    {
+        SceneManager.LoadScene(4);
+        charDB.isLoad = true;
     }
     
     public void QuitGame () 

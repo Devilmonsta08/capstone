@@ -5,6 +5,8 @@ using UnityEngine;
 [CreateAssetMenu]
 public class CharacterDatabase : ScriptableObject 
 {
+	public bool isLoad;
+
 	public string charName;
 	public string charGender;
 

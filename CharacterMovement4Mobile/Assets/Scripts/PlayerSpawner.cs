@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using System.Net.NetworkInformation;
 using UnityEngine;
 using UnityEngine.TextCore.Text;
@@ -16,6 +17,11 @@ public class PlayerSpawner : MonoBehaviour
     [SerializeField] private Transform characterPosition;
 
     private void OnApplicationQuit()
+    {
+        saveLoad.Save();
+    }
+
+    private void OnDisable()
     {
         saveLoad.Save();
     }
@@ -48,7 +54,10 @@ public class PlayerSpawner : MonoBehaviour
 
     private void LoadData()
     {
-        saveLoad.Load();
+        if(characterDB.isLoad)
+        {
+            saveLoad.Load();
+        }
     }
 
     private void UpdateCharacter(int selectedOption)
