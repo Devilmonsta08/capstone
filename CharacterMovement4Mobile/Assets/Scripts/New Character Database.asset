@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae1de8f2a34f974f9c210e0baf0f808, type: 3}
   m_Name: New Character Database
   m_EditorClassIdentifier: 
-  charName: ARIONE
+  charName: 2023
   charGender: Female
   character:
   - characterName: 
     characterSprite: {fileID: 790673351, guid: ce8ddee063a9bb446a185c15a2d5aae6, type: 3}
   - characterName: 
     characterSprite: {fileID: 547071175, guid: 49b82a7adde42264390f1f4d60c6c05c, type: 3}
-  playerPosition: {x: -6.396005, y: -1.2480006, z: 0}
+  playerPosition: {x: 0, y: 0, z: 0}
   enemyName: Common Enemy 2
   isWin: 0
   enemiesDefeated: []
@@ -38,13 +38,13 @@ MonoBehaviour:
     - the Comfortablest
     - Comfortable
     CorrectAnswer: 2
-  - Question: Rabbits work ____.
+  - Question: Rabbits are ________ Work
     Answers:
     - Slower
     - As Fast as
     - Faster
     - Fast
-    CorrectAnswer: 4
+    CorrectAnswer: 3
   - Question: Everybody likes Kevin. He is the _________ person in the company.
     Answers:
     - Cooler
@@ -69,17 +69,17 @@ MonoBehaviour:
   - Question: 'Be careful, the roads are___________. '
     Answers:
     - Dry
-    - Slippery
+    - Icy
     - Cold
     - Cloudy
-    CorrectAnswer: 2
+    CorrectAnswer: 1
   - Question: Sara is the __________ girl in the class.
     Answers:
     - Beautifuller
     - More beautiful
     - Most beautiful
     - Beautifulest
-    CorrectAnswer: 3
+    CorrectAnswer: 2
   - Question: I eat _________ apple every morning
     Answers:
     - A

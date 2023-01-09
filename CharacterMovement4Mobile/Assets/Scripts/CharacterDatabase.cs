@@ -13,7 +13,7 @@ public class CharacterDatabase : ScriptableObject
 	public string enemyName;
 	public bool isWin;
 
-	public string[] enemiesDefeated;
+	public List<string> enemiesDefeated;
 
     public List<QuestionAndAnswer> QnA;
 

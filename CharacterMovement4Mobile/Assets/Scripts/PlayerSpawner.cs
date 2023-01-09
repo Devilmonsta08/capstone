@@ -12,6 +12,14 @@ public class PlayerSpawner : MonoBehaviour
 
     private int selectedOption = 0;
 
+    [SerializeField] private SaveLoad saveLoad;
+    [SerializeField] private Transform characterPosition;
+
+    private void OnApplicationQuit()
+    {
+        saveLoad.Save();
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -34,6 +42,13 @@ public class PlayerSpawner : MonoBehaviour
         {
             artworkSprite.sprite = Resources.Load<Sprite>("Characters/BoyCharacter/Man Sprite Char");
         }
+
+        LoadData();
+    }
+
+    private void LoadData()
+    {
+        saveLoad.Load();
     }
 
     private void UpdateCharacter(int selectedOption)

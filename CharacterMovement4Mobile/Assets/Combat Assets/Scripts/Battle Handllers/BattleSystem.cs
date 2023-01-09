@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -33,6 +34,7 @@ public class BattleSystem : MonoBehaviour
 
     [SerializeField] private CharacterDatabase charData;
 
+    [SerializeField] private SaveLoad saveLoad;
   
 
     public GameObject QandA;
@@ -87,6 +89,7 @@ public class BattleSystem : MonoBehaviour
         {
             state = BattleHandler.WON;
             EnemyAnim.SetTrigger("EnemyDeath");
+            
             EndBattle();
         } else
         {
@@ -94,6 +97,17 @@ public class BattleSystem : MonoBehaviour
             PlayerTurn();
             //state = BattleHandler.ENEMYTURN;
             //StartCoroutine(EnemyTurn());
+        }
+    }
+
+    private void addEnemyDefeated(string enemy)
+    {
+        if(charData.enemiesDefeated == null)
+        {
+            charData.enemiesDefeated = new List<string> { enemy };
+        }else if(!charData.enemiesDefeated.Contains(enemy))
+        {
+            charData.enemiesDefeated.Add(enemy);
         }
     }
 
@@ -131,12 +145,14 @@ public class BattleSystem : MonoBehaviour
         if (state == BattleHandler.WON)
         {
             PopupMessage.SetActive(true);
+            addEnemyDefeated(charData.enemyName);
             charData.isWin = true;
         } 
         else if(state == BattleHandler.LOST)
         {
             PopupMessage2.SetActive(true);
         }
+        saveLoad.Save();
     }
 
     

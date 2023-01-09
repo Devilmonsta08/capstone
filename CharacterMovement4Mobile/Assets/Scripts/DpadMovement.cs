@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class DpadMovement : MonoBehaviour
 {
+    [SerializeField] private CharacterDatabase charDB;
+
     private Rigidbody2D rb;
     [SerializeField]
     private float movSpeed;
@@ -27,9 +29,8 @@ public class DpadMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        charDB.playerPosition = gameObject.transform.position;
     }
-
 
     public void MoveUp()
     {
