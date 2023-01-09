@@ -274,7 +274,7 @@ MonoBehaviour:
   m_CharacterValidation: 0
   m_RegexValue: 
   m_GlobalPointSize: 50
-  m_CharacterLimit: 0
+  m_CharacterLimit: 10
   m_OnEndEdit:
     m_PersistentCalls:
       m_Calls: []
@@ -1400,8 +1400,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterDB: {fileID: 11400000, guid: 9f1ade49099cbec4a9797fa6b1f8ac19, type: 2}
-  nameText: {fileID: 0}
   artworkSprite: {fileID: 1739113185}
+  inputField: {fileID: 218000466}
 --- !u!1 &1757327849
 GameObject:
   m_ObjectHideFlags: 0

@@ -12,8 +12,85 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae1de8f2a34f974f9c210e0baf0f808, type: 3}
   m_Name: New Character Database
   m_EditorClassIdentifier: 
+  charName: ARIONE
+  charGender: Female
   character:
   - characterName: 
     characterSprite: {fileID: 790673351, guid: ce8ddee063a9bb446a185c15a2d5aae6, type: 3}
   - characterName: 
     characterSprite: {fileID: 547071175, guid: 49b82a7adde42264390f1f4d60c6c05c, type: 3}
+  playerPosition: {x: -6.396005, y: -1.2480006, z: 0}
+  enemyName: Common Enemy 2
+  isWin: 0
+  enemiesDefeated: []
+  QnA:
+  - Question: This Shirt is ____________ shirt in the shop
+    Answers:
+    - The Expensive
+    - More Expensive
+    - Expensiver
+    - The Most Expensive
+    CorrectAnswer: 4
+  - Question: Home is always ____________ work
+    Answers:
+    - Comfortabler
+    - More Comfortable Than
+    - the Comfortablest
+    - Comfortable
+    CorrectAnswer: 2
+  - Question: Rabbits work ____.
+    Answers:
+    - Slower
+    - As Fast as
+    - Faster
+    - Fast
+    CorrectAnswer: 4
+  - Question: Everybody likes Kevin. He is the _________ person in the company.
+    Answers:
+    - Cooler
+    - As cool as
+    - Coolest
+    - Cool
+    CorrectAnswer: 3
+  - Question: Elephants are ___________ than horses
+    Answers:
+    - Bigger
+    - Biggest
+    - As big as
+    - Big
+    CorrectAnswer: 1
+  - Question: Love is ___________ money.
+    Answers:
+    - The most important
+    - More important than
+    - As important as
+    - Important
+    CorrectAnswer: 2
+  - Question: 'Be careful, the roads are___________. '
+    Answers:
+    - Dry
+    - Slippery
+    - Cold
+    - Cloudy
+    CorrectAnswer: 2
+  - Question: Sara is the __________ girl in the class.
+    Answers:
+    - Beautifuller
+    - More beautiful
+    - Most beautiful
+    - Beautifulest
+    CorrectAnswer: 3
+  - Question: I eat _________ apple every morning
+    Answers:
+    - A
+    - An
+    - The
+    - None
+    CorrectAnswer: 2
+  - Question: ______ my first time playing football. Which word is incorrect?
+    Answers:
+    - Its
+    - My
+    - Time
+    - Playing
+    CorrectAnswer: 1

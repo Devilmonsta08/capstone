@@ -5,12 +5,19 @@ using UnityEngine;
 [CreateAssetMenu]
 public class CharacterDatabase : ScriptableObject 
 {
+	public string charName;
+	public string charGender;
+
     public Character[] character;
 	public Vector3 playerPosition;
 	public string enemyName;
 	public bool isWin;
 
-	private void OnEnable() 
+	public string[] enemiesDefeated;
+
+    public List<QuestionAndAnswer> QnA;
+
+    private void OnEnable() 
 	{
 		isWin = false;
 		playerPosition = new Vector3(0, 0, 0);

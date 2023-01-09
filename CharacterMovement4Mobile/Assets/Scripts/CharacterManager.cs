@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class CharacterManager : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class CharacterManager : MonoBehaviour
 
 	//public Text nameText;
 	public SpriteRenderer artworkSprite;
+    public TMP_InputField inputField;
 
     private int selectedOption = 0;
 
@@ -72,6 +74,17 @@ public class CharacterManager : MonoBehaviour
 
     public void ChangeScene(int sceneID)
     {
+        // SET PLAYER GENEDER
+        if(artworkSprite.sprite.name == "Man Sprite Char_0")
+        {
+            characterDB.charGender = "Male";
+        }else if(artworkSprite.sprite.name == "Female Sprite Char_0")
+        {
+            characterDB.charGender = "Female";
+        }
+
+        characterDB.charName = inputField.text;
+
         SceneManager.LoadScene(sceneID);
     }
 }

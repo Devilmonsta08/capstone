@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Net.NetworkInformation;
 using UnityEngine;
+using UnityEngine.TextCore.Text;
 
 public class PlayerSpawner : MonoBehaviour
 {
@@ -13,6 +15,7 @@ public class PlayerSpawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
         if(!PlayerPrefs.HasKey("selectedOption"))
         {
             selectedOption = 0;
@@ -21,8 +24,16 @@ public class PlayerSpawner : MonoBehaviour
         {
             Load();
         }
-
+        
         UpdateCharacter(selectedOption);
+
+        if(characterDB.charGender == "Female")
+        {
+            artworkSprite.sprite = Resources.Load<Sprite>("Characters/GirlCharacter/Female Sprite Char");
+        }else
+        {
+            artworkSprite.sprite = Resources.Load<Sprite>("Characters/BoyCharacter/Man Sprite Char");
+        }
     }
 
     private void UpdateCharacter(int selectedOption)

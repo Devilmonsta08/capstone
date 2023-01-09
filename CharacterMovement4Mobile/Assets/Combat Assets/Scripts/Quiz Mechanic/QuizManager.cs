@@ -6,6 +6,7 @@ using TMPro;
 
 public class QuizManager : MonoBehaviour
 {
+    public CharacterDatabase charDB;
     public List<QuestionAndAnswer> QnA;
     public GameObject[] options;
     public int currentQuestion;
@@ -14,6 +15,7 @@ public class QuizManager : MonoBehaviour
 
     private void Start() 
     {
+        charDB.QnA = QnA;
         generateQuestion();
     }
 
@@ -24,7 +26,7 @@ public class QuizManager : MonoBehaviour
     }
     public void Correct()
     {
-         QnA.RemoveAt(currentQuestion);
+        charDB.QnA.RemoveAt(currentQuestion);
         generateQuestion();
     }
 
@@ -36,9 +38,9 @@ public class QuizManager : MonoBehaviour
         {
             
             options[i].GetComponent<AnswerScript>().isCorrect = false;
-            options[i].transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = QnA[currentQuestion].Answers[i];
+            options[i].transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = charDB.QnA[currentQuestion].Answers[i];
 
-            if (QnA[currentQuestion].CorrectAnswer == i+1)
+            if (charDB.QnA[currentQuestion].CorrectAnswer == i+1)
             {
                 options[i].GetComponent<AnswerScript>().isCorrect = true;
             }
@@ -48,11 +50,11 @@ public class QuizManager : MonoBehaviour
 
     void generateQuestion()
     {
-        if(QnA.Count > 0)
+        if(charDB.QnA.Count > 0)
         {
-            currentQuestion = Random.Range(0, QnA.Count);
+            currentQuestion = Random.Range(0, charDB.QnA.Count);
 
-            QuestionTxt.text = QnA[currentQuestion].Question;
+            QuestionTxt.text = charDB.QnA[currentQuestion].Question;
             SetAnswers();
         }
         else 

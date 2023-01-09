@@ -86,6 +86,7 @@ public class BattleSystem : MonoBehaviour
         if (Attack)
         {
             state = BattleHandler.WON;
+            EnemyAnim.SetTrigger("EnemyDeath");
             EndBattle();
         } else
         {
