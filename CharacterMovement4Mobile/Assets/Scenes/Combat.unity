@@ -386,8 +386,10 @@ MonoBehaviour:
   MalePrefab: {fileID: 7315367329798107609, guid: b75ab8d842cec2844839a200b36f7451, type: 3}
   FemalePrefab: {fileID: 4813522577594636263, guid: 074694d1930660549a94f018e09c213c, type: 3}
   EnemyPrefab: {fileID: 7112272907626971816, guid: 71bb432f69325a24e82ea050ca2bc7a0, type: 3}
-  MaleController: {fileID: 9100000, guid: f0dadb2dd77f9fd478ec3fefee20bdd0, type: 2}
-  FemaleController: {fileID: 9100000, guid: 0040bb4daaaf44440ab48ce01d4c497d, type: 2}
+  BugPrefab: {fileID: 8603531202088771699, guid: 6f99499e2e0a7914da8c800852ab6c7d, type: 3}
+  SlimePrefab: {fileID: 8458240930141148665, guid: ac6f2a422415faa45b0e47dfc61c8b29, type: 3}
+  BlobPrefab: {fileID: 827279682392658766, guid: 226146d027739f44f8827d966bd7e90d, type: 3}
+  CommonEnemyPrefab: {fileID: 7112272907626971816, guid: 342df24f3ceb03547ad7aadaa70b527a, type: 3}
   PlayerPostion: {fileID: 890848411}
   EnemyPostion: {fileID: 1045818249}
   TurnTextDialogue: {fileID: 529358199}
