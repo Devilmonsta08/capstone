@@ -26,6 +26,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Combat.unity
     guid: 85d18bccad91049418bfd5756a17be30
+  - enabled: 1
+    path: Assets/Scenes/Storyline2Cutscene.unity
+    guid: 185d4eabda671784b9826c7de69b37c4
+  - enabled: 1
+    path: Assets/Scenes/GameMap2.unity
+    guid: 8436b6ea86d9a324eb4569835f855f54
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 98a4f6831d1f3304799fa091fcafa1a7, type: 2}
     com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: 24fd7b7a6ccdde849b8b24fba1d961cc, type: 2}
