@@ -21,6 +21,8 @@ public class BattleSystem : MonoBehaviour
     public GameObject BlobPrefab;
     public GameObject CommonEnemyPrefab;
 
+    public Image backgroundImg;
+
     public Transform PlayerPostion;
     public Transform EnemyPostion;
 
@@ -48,7 +50,13 @@ public class BattleSystem : MonoBehaviour
 
     void Start()
     {
-        
+        if(charData.stageOneProgress == 4)
+        {
+            backgroundImg.sprite = Resources.Load<Sprite>("Combat Characters/Background/Forest_Battle_Scene");
+        }else
+        {
+            backgroundImg.sprite = Resources.Load<Sprite>("Combat Characters/Background/First Level Background");
+        }
         state = BattleHandler.START;
         StartCoroutine(setupBattle());
     }

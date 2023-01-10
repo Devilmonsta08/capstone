@@ -390,6 +390,7 @@ MonoBehaviour:
   SlimePrefab: {fileID: 8458240930141148665, guid: ac6f2a422415faa45b0e47dfc61c8b29, type: 3}
   BlobPrefab: {fileID: 827279682392658766, guid: 226146d027739f44f8827d966bd7e90d, type: 3}
   CommonEnemyPrefab: {fileID: 7112272907626971816, guid: 342df24f3ceb03547ad7aadaa70b527a, type: 3}
+  backgroundImg: {fileID: 987094595}
   PlayerPostion: {fileID: 890848411}
   EnemyPostion: {fileID: 1045818249}
   TurnTextDialogue: {fileID: 529358199}

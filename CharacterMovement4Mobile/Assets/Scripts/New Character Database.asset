@@ -56,6 +56,20 @@ MonoBehaviour:
     - Coolest
     - Cool
     CorrectAnswer: 3
+  - Question: Elephants are ___________ than horses
+    Answers:
+    - Bigger
+    - Biggest
+    - As big as
+    - Big
+    CorrectAnswer: 1
+  - Question: Love is ___________ money.
+    Answers:
+    - The most important
+    - More important than
+    - As important as
+    - Important
+    CorrectAnswer: 2
   - Question: 'Be careful, the roads are___________. '
     Answers:
     - Dry
