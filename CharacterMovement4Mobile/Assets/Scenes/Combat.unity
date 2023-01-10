@@ -3136,76 +3136,191 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   charDB: {fileID: 11400000, guid: 9f1ade49099cbec4a9797fa6b1f8ac19, type: 2}
   QnA:
-  - Question: This Shirt is ____________ shirt in the shop
+  - Question: My friends and I _______  a horror film.
     Answers:
-    - The Expensive
-    - More Expensive
-    - Expensiver
-    - The Most Expensive
+    - Watch
+    - Watched
+    - Wash
+    - Wacht
+    CorrectAnswer: 1
+  - Question: Every Filipino ______his/her share of serving to his/her country
+    Answers:
+    - Do
+    - Does
+    - Dos
+    - Deos
+    CorrectAnswer: 2
+  - Question: Each scouting organization________  the youth to be obedient and responsible.
+    Answers:
+    - Teach
+    - Teacher
+    - Teaches
+    - Trees
+    CorrectAnswer: 3
+  - Question: Manny and Joy _________  their household wastes.
+    Answers:
+    - Segregtes
+    - Segregates
+    - Segregets
+    - Secrets
+    CorrectAnswer: 2
+  - Question: Villamiel Family ________ the finances well.
+    Answers:
+    - Manage
+    - Manages
+    - Manager
+    - Manggo
+    CorrectAnswer: 2
+  - Question: Filipino ________ their country, the Philippines.
+    Answers:
+    - Loves
+    - Lobes
+    - Leeves
+    - Lots
+    CorrectAnswer: 1
+  - Question: 'Our teachers ______ (lives) here in the near subdivision. '
+    Answers:
+    - Loves
+    - Lives
+    - Gets
+    - Legs
+    CorrectAnswer: 2
+  - Question: Our national heroes _______  me.
+    Answers:
+    - Inspires
+    - Insprite
+    - Helps
+    - Help
+    CorrectAnswer: 1
+  - Question: The magician _______the door to the hunters.
+    Answers:
+    - Shoot
+    - Shut
+    - Sheet
+    - Shats
+    CorrectAnswer: 2
+  - Question: Magnus, the Good Magician ______  his magic to help the people of Mount
+      Magubat.
+    Answers:
+    - Use
+    - Uses
+    - Used
+    - Usess
+    CorrectAnswer: 1
+  - Question: Maria _______  to read the secret dairy of Magnus.
+    Answers:
+    - Tries
+    - Tried
+    - Try
+    - Tree
+    CorrectAnswer: 3
+  - Question: "The little girl _______ inside the wizard\u2019s lair for the night. "
+    Answers:
+    - Stays
+    - Stood
+    - Stand
+    - Stay
     CorrectAnswer: 4
-  - Question: Home is always ____________ work
+  - Question: "Manuel ___________  the letter to the wizard\u2019s house."
     Answers:
-    - Comfortabler
-    - More Comfortable Than
-    - the Comfortablest
-    - Comfortable
+    - Deliver
+    - Deilvers
+    - Diliver
+    - Threw
+    CorrectAnswer: 1
+  - Question: 'Jumbled Words: She (S M E S S I) Her Granpa'
+    Answers:
+    - Messis
+    - Misses
+    - Sissem
+    - Issems
     CorrectAnswer: 2
-  - Question: Rabbits are ________ Work
+  - Question: 'Jumbled Words: He (S P L A N) for the future of his family'
     Answers:
-    - Slower
-    - As Fast as
-    - Faster
-    - Fast
+    - Plans
+    - Nalps
+    - Slapn
+    - Nlaps
+    CorrectAnswer: 1
+  - Question: 'Jumbled Words: Praye  ( S W O  R K ) most of the time. '
+    Answers:
+    - kows
+    - Wosrk
+    - Works
+    - Swork
     CorrectAnswer: 3
-  - Question: Everybody likes Kevin. He is the _________ person in the company.
-    Answers:
-    - Cooler
-    - As cool as
-    - Coolest
-    - Cool
-    CorrectAnswer: 3
-  - Question: Elephants are ___________ than horses
-    Answers:
-    - Bigger
-    - Biggest
-    - As big as
-    - Big
-    CorrectAnswer: 1
-  - Question: Love is ___________ money.
-    Answers:
-    - The most important
-    - More important than
-    - As important as
-    - Important
-    CorrectAnswer: 2
-  - Question: 'Be careful, the roads are___________. '
-    Answers:
-    - Dry
-    - Icy
-    - Cold
-    - Cloudy
-    CorrectAnswer: 1
-  - Question: Sara is the __________ girl in the class.
-    Answers:
-    - Beautifuller
-    - More beautiful
-    - Most beautiful
-    - Beautifulest
-    CorrectAnswer: 2
-  - Question: I eat _________ apple every morning
-    Answers:
-    - A
-    - An
-    - The
-    - None
-    CorrectAnswer: 2
-  - Question: ______ my first time playing football. Which word is incorrect?
-    Answers:
-    - Its
-    - My
-    - Time
-    - Playing
-    CorrectAnswer: 1
+  - Question: 
+    Answers: []
+    CorrectAnswer: 0
+  - Question: 
+    Answers: []
+    CorrectAnswer: 0
+  - Question: 
+    Answers: []
+    CorrectAnswer: 0
+  - Question: 
+    Answers: []
+    CorrectAnswer: 0
+  - Question: 
+    Answers: []
+    CorrectAnswer: 0
+  - Question: 
+    Answers: []
+    CorrectAnswer: 0
+  - Question: 
+    Answers: []
+    CorrectAnswer: 0
+  - Question: 
+    Answers: []
+    CorrectAnswer: 0
+  - Question: 
+    Answers: []
+    CorrectAnswer: 0
+  - Question: 
+    Answers: []
+    CorrectAnswer: 0
+  - Question: 
+    Answers: []
+    CorrectAnswer: 0
+  - Question: 
+    Answers: []
+    CorrectAnswer: 0
+  - Question: 
+    Answers: []
+    CorrectAnswer: 0
+  - Question: 
+    Answers: []
+    CorrectAnswer: 0
+  - Question: 
+    Answers: []
+    CorrectAnswer: 0
+  - Question: 
+    Answers: []
+    CorrectAnswer: 0
+  - Question: 
+    Answers: []
+    CorrectAnswer: 0
+  - Question: 
+    Answers: []
+    CorrectAnswer: 0
+  - Question: 
+    Answers: []
+    CorrectAnswer: 0
+  - Question: 
+    Answers: []
+    CorrectAnswer: 0
+  - Question: 
+    Answers: []
+    CorrectAnswer: 0
+  - Question: 
+    Answers: []
+    CorrectAnswer: 0
+  - Question: 
+    Answers: []
+    CorrectAnswer: 0
+  - Question: 
+    Answers: []
+    CorrectAnswer: 0
   options:
   - {fileID: 1623605871}
   - {fileID: 526279319}
