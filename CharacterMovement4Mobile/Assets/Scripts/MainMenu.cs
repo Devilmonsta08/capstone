@@ -14,11 +14,11 @@ public class MainMenu : MonoBehaviour
         string path = Application.persistentDataPath + "/dunamis.eyy";
         if (File.Exists(path))
         {
-            transform.GetChild(2).GetComponent<Button>().interactable = true;
+            loadBtn.interactable = true;
         }
         else
         {
-            transform.GetChild(2).GetComponent<Button>().interactable = false;
+            loadBtn.interactable = false;
         }
     }
 

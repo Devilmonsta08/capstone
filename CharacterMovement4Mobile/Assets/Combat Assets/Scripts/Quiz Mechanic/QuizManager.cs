@@ -15,7 +15,7 @@ public class QuizManager : MonoBehaviour
 
     private void Start() 
     {
-        //charDB.QnA = QnA;
+        charDB.QnA = QnA;
         generateQuestion();
     }
 

@@ -23,9 +23,10 @@ MonoBehaviour:
   - characterName: 
     characterSprite: {fileID: 547071175, guid: 49b82a7adde42264390f1f4d60c6c05c, type: 3}
   playerPosition: {x: 0, y: 0, z: 0}
-  enemyName: Golem
+  enemyName: 
   isWin: 0
-  enemiesDefeated: []
+  enemiesDefeated:
+  - Common Enemy 1
   QnA:
   - Question: My friends and I _______  a horror film.
     Answers:
