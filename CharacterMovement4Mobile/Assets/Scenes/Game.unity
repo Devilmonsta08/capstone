@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 84731796}
   - component: {fileID: 84731795}
   m_Layer: 0
-  m_Name: Common Enemy 3
+  m_Name: BigBlob
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -173,7 +173,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 0.64}
+    oldSize: {x: 1.921877, y: 1.2800001}
     newSize: {x: 1, y: 0.64}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -223,7 +223,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1266931788, guid: 53a44a3b812edf04b83f0e80cec7e18d, type: 3}
+  m_Sprite: {fileID: -393009695, guid: e767efebc7c9a96468d264f32dfbafa4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
