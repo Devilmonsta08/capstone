@@ -37,11 +37,22 @@ public class NextTimeline : MonoBehaviour
         {
             playableDirector.time = 29.51f;
         }
-        else if (playableDirector.time > 29.51f && playableDirector.time < 29.50f)
+        else if (playableDirector.time > 29.51f && playableDirector.time < 35.50f)
         {
-            playableDirector.time = 29.51f;
+            playableDirector.time = 35.51f;
         }
-
+        else if (playableDirector.time > 35.51f && playableDirector.time < 41.50f)
+        {
+            playableDirector.time = 41.51f;
+        }
+        else if (playableDirector.time > 41.51f && playableDirector.time < 46.50f)
+        {
+            playableDirector.time = 46.51f;
+        }
+        else if (playableDirector.time > 46.51f && playableDirector.time < 52.50f)
+        {
+            playableDirector.time = 52.51f;
+        }
         // AND MORE
 
     }
