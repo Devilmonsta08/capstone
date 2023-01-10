@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isLoad: 0
   charName: wihd
-  charGender: Male
+  charGender: Female
   character:
   - characterName: 
     characterSprite: {fileID: 790673351, guid: ce8ddee063a9bb446a185c15a2d5aae6, type: 3}
@@ -25,13 +25,6 @@ MonoBehaviour:
   isWin: 0
   enemiesDefeated: []
   QnA:
-  - Question: This Shirt is ____________ shirt in the shop
-    Answers:
-    - The Expensive
-    - More Expensive
-    - Expensiver
-    - The Most Expensive
-    CorrectAnswer: 4
   - Question: Home is always ____________ work
     Answers:
     - Comfortabler
@@ -88,10 +81,3 @@ MonoBehaviour:
     - The
     - None
     CorrectAnswer: 2
-  - Question: ______ my first time playing football. Which word is incorrect?
-    Answers:
-    - Its
-    - My
-    - Time
-    - Playing
-    CorrectAnswer: 1
