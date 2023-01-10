@@ -36,6 +36,7 @@ public class DpadMovement : MonoBehaviour
     {
         rb.velocity = Vector2.up * movSpeed;
         ChangeAnimationState(PLAYER_WALK_UP);
+        Debug.Log("MovingUp!");
     }
 
     public void MoveDown()
