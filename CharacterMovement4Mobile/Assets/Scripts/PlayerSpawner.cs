@@ -10,6 +10,7 @@ public class PlayerSpawner : MonoBehaviour
     public CharacterDatabase characterDB;
 
 	public SpriteRenderer artworkSprite;
+    public Animator animator;
 
     private int selectedOption = 0;
 
@@ -44,9 +45,13 @@ public class PlayerSpawner : MonoBehaviour
         if(characterDB.charGender == "Female")
         {
             artworkSprite.sprite = Resources.Load<Sprite>("Characters/GirlCharacter/Female Sprite Char");
-        }else
+            animator.runtimeAnimatorController = Resources.Load("Characters/GirlCharacter/Female_Walk_Animation") as RuntimeAnimatorController;
+
+        }
+        else
         {
             artworkSprite.sprite = Resources.Load<Sprite>("Characters/BoyCharacter/Man Sprite Char");
+            animator.runtimeAnimatorController = Resources.Load("Characters/BoyCharacter/Player") as RuntimeAnimatorController;
         }
 
         LoadData();

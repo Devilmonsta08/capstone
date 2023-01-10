@@ -27,9 +27,31 @@ public class QuizManager : MonoBehaviour
     public void Correct()
     {
         charDB.QnA.RemoveAt(currentQuestion);
-        generateQuestion();
+        StartCoroutine(GreenRed());
     }
 
+    private IEnumerator GreenRed()
+    {
+        for (int i = 0; i < options.Length; i++)
+        {
+            if(options[i].GetComponent<AnswerScript>().isCorrect == false)
+            {
+                options[i].GetComponent<Image>().color = new Color32(255, 0, 0, 255);
+            }else
+            {
+                options[i].GetComponent<Image>().color = new Color32(0, 255, 0, 255);
+            }
+        }
+
+        yield return new WaitForSeconds(2f);
+
+        for (int i = 0; i < options.Length; i++)
+        {
+            options[i].GetComponent<Image>().color = new Color32(255, 255, 255, 255);
+        }
+
+        generateQuestion();
+    }
     
 
     void SetAnswers()
