@@ -15,16 +15,24 @@ MonoBehaviour:
   isLoad: 0
   charName: wihd
   charGender: Female
+  charHealth: 100
   character:
   - characterName: 
     characterSprite: {fileID: 790673351, guid: ce8ddee063a9bb446a185c15a2d5aae6, type: 3}
   - characterName: 
     characterSprite: {fileID: 547071175, guid: 49b82a7adde42264390f1f4d60c6c05c, type: 3}
   playerPosition: {x: 0, y: 0, z: 0}
-  enemyName: Common Enemy 2
+  enemyName: Common Enemy 1
   isWin: 0
   enemiesDefeated: []
   QnA:
+  - Question: This Shirt is ____________ shirt in the shop
+    Answers:
+    - The Expensive
+    - More Expensive
+    - Expensiver
+    - The Most Expensive
+    CorrectAnswer: 4
   - Question: Home is always ____________ work
     Answers:
     - Comfortabler
@@ -81,3 +89,10 @@ MonoBehaviour:
     - The
     - None
     CorrectAnswer: 2
+  - Question: ______ my first time playing football. Which word is incorrect?
+    Answers:
+    - Its
+    - My
+    - Time
+    - Playing
+    CorrectAnswer: 1

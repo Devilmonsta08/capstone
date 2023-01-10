@@ -9,6 +9,7 @@ public class CharacterDatabase : ScriptableObject
 
 	public string charName;
 	public string charGender;
+	public int charHealth;
 
     public Character[] character;
 	public Vector3 playerPosition;

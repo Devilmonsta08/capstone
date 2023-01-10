@@ -50,6 +50,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c711c62bc1213174384fa15f82eee719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  charDB: {fileID: 11400000, guid: 9f1ade49099cbec4a9797fa6b1f8ac19, type: 2}
   unitName: Ghost
   Damage: 1
   maxHP: 10

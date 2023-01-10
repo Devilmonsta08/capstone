@@ -16,8 +16,10 @@ public class BattleSystem : MonoBehaviour
     public GameObject FemalePrefab;
     public GameObject EnemyPrefab;
 
-    public RuntimeAnimatorController MaleController;
-    public RuntimeAnimatorController FemaleController;
+    public GameObject BugPrefab;
+    public GameObject SlimePrefab;
+    public GameObject BlobPrefab;
+    public GameObject CommonEnemyPrefab;
 
     public Transform PlayerPostion;
     public Transform EnemyPostion;
@@ -39,6 +41,7 @@ public class BattleSystem : MonoBehaviour
     [SerializeField] private CharacterDatabase charData;
 
     [SerializeField] private SaveLoad saveLoad;
+    [SerializeField] private QuizManager quizManager;
   
 
     public GameObject QandA;
@@ -55,24 +58,48 @@ public class BattleSystem : MonoBehaviour
         PopupMessage.SetActive(false);
         PopupMessage2.SetActive(false);
         QandA.SetActive(false);
+
+        // PLAYER
         GameObject PlayerGO;
         if (charData.charGender == "Female")
         {
             PlayerGO = Instantiate(FemalePrefab, PlayerPostion);
             PlayerStats = PlayerGO.GetComponent<Stats>();
             PlayerAnim = PlayerGO.GetComponentInChildren<Animator>();
-        }else
+        }
+        else
         {
             PlayerGO = Instantiate(MalePrefab, PlayerPostion);
             PlayerStats = PlayerGO.GetComponent<Stats>();
             PlayerAnim = PlayerGO.transform.GetComponentInChildren<Animator>();
         }
 
-        GameObject EnemyGo = Instantiate(EnemyPrefab, EnemyPostion);
-        EnemyStats = EnemyGo.GetComponent<Stats>();
-        EnemyAnim = EnemyGo.transform.GetComponentInChildren<Animator>();
+        // ENEMY
+        if(charData.enemyName == "Slime")
+        {
+            GameObject EnemyGo = Instantiate(SlimePrefab, EnemyPostion);
+            EnemyStats = EnemyGo.GetComponent<Stats>();
+            EnemyAnim = EnemyGo.transform.GetComponentInChildren<Animator>();
+        }
+        else if(charData.enemyName == "Bug")
+        {
+            GameObject EnemyGo = Instantiate(BugPrefab, EnemyPostion);
+            EnemyStats = EnemyGo.GetComponent<Stats>();
+            EnemyAnim = EnemyGo.transform.GetComponentInChildren<Animator>();
+        }
+        else if(charData.enemyName == "BigBlob")
+        {
+            GameObject EnemyGo = Instantiate(BlobPrefab, EnemyPostion);
+            EnemyStats = EnemyGo.GetComponent<Stats>();
+            EnemyAnim = EnemyGo.transform.GetComponentInChildren<Animator>();
+        }
+        else
+        {
+            GameObject EnemyGo = Instantiate(CommonEnemyPrefab, EnemyPostion);
+            EnemyStats = EnemyGo.GetComponent<Stats>();
+            EnemyAnim = EnemyGo.transform.GetComponentInChildren<Animator>();
+        }
 
-        
         playerHUD.HUD(PlayerStats);
         EnemyHUD.HUD(EnemyStats);
 
@@ -101,8 +128,6 @@ public class BattleSystem : MonoBehaviour
         if (Attack)
         {
             state = BattleHandler.WON;
-            EnemyAnim.SetTrigger("EnemyDeath");
-            
             EndBattle();
         } else
         {
@@ -141,8 +166,9 @@ public class BattleSystem : MonoBehaviour
 
         if (Attack)
         {
+            // IF LOST
             state = BattleHandler.LOST;
-            PlayerAnim.SetTrigger("DeathAnimation");
+            
             EndBattle();
         } else 
         {
@@ -157,12 +183,15 @@ public class BattleSystem : MonoBehaviour
         if (state == BattleHandler.WON)
         {
             PopupMessage.SetActive(true);
+            EnemyAnim.SetTrigger("EnemyDeath");
             addEnemyDefeated(charData.enemyName);
             charData.isWin = true;
         } 
         else if(state == BattleHandler.LOST)
         {
             PopupMessage2.SetActive(true);
+            PlayerAnim.SetTrigger("DeathAnimation");
+            PlayerLost();
         }
         saveLoad.Save();
     }
@@ -181,6 +210,14 @@ public class BattleSystem : MonoBehaviour
             
             //StartCoroutine(PlayerAttack());    
 
+    }
+
+    private void PlayerLost()
+    {
+        charData.enemiesDefeated.Clear();
+        charData.charHealth = 100;
+        charData.playerPosition = new Vector3(0, 0, 0);
+        charData.QnA = quizManager.QnA;
     }
 
 }
