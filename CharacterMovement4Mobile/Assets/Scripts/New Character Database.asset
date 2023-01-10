@@ -23,10 +23,9 @@ MonoBehaviour:
   - characterName: 
     characterSprite: {fileID: 547071175, guid: 49b82a7adde42264390f1f4d60c6c05c, type: 3}
   playerPosition: {x: 0, y: 0, z: 0}
-  enemyName: Common Enemy 1
+  enemyName: Golem
   isWin: 0
-  enemiesDefeated:
-  - Common Enemy 1
+  enemiesDefeated: []
   QnA:
   - Question: This Shirt is ____________ shirt in the shop
     Answers:
@@ -56,6 +55,20 @@ MonoBehaviour:
     - Coolest
     - Cool
     CorrectAnswer: 3
+  - Question: Elephants are ___________ than horses
+    Answers:
+    - Bigger
+    - Biggest
+    - As big as
+    - Big
+    CorrectAnswer: 1
+  - Question: Love is ___________ money.
+    Answers:
+    - The most important
+    - More important than
+    - As important as
+    - Important
+    CorrectAnswer: 2
   - Question: 'Be careful, the roads are___________. '
     Answers:
     - Dry

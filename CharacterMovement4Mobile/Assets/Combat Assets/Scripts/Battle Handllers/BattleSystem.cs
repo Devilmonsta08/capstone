@@ -20,6 +20,11 @@ public class BattleSystem : MonoBehaviour
     public GameObject SlimePrefab;
     public GameObject BlobPrefab;
     public GameObject CommonEnemyPrefab;
+    public GameObject EyeballPrefab;
+    public GameObject GoblinPrefab;
+    public GameObject GolemPrefab;
+
+    public Image backgroundImg;
 
     public Transform PlayerPostion;
     public Transform EnemyPostion;
@@ -48,7 +53,13 @@ public class BattleSystem : MonoBehaviour
 
     void Start()
     {
-        
+        if(charData.stageOneProgress == 4)
+        {
+            backgroundImg.sprite = Resources.Load<Sprite>("Combat Characters/Background/Forest_Battle_Scene");
+        }else
+        {
+            backgroundImg.sprite = Resources.Load<Sprite>("Combat Characters/Background/First Level Background");
+        }
         state = BattleHandler.START;
         StartCoroutine(setupBattle());
     }
@@ -90,6 +101,24 @@ public class BattleSystem : MonoBehaviour
         else if(charData.enemyName == "BigBlob")
         {
             GameObject EnemyGo = Instantiate(BlobPrefab, EnemyPostion);
+            EnemyStats = EnemyGo.GetComponent<Stats>();
+            EnemyAnim = EnemyGo.transform.GetComponentInChildren<Animator>();
+        }
+        else if (charData.enemyName == "Eyeball")
+        {
+            GameObject EnemyGo = Instantiate(EyeballPrefab, EnemyPostion);
+            EnemyStats = EnemyGo.GetComponent<Stats>();
+            EnemyAnim = EnemyGo.transform.GetComponentInChildren<Animator>();
+        }
+        else if (charData.enemyName == "Goblin")
+        {
+            GameObject EnemyGo = Instantiate(GoblinPrefab, EnemyPostion);
+            EnemyStats = EnemyGo.GetComponent<Stats>();
+            EnemyAnim = EnemyGo.transform.GetComponentInChildren<Animator>();
+        }
+        else if (charData.enemyName == "Golem")
+        {
+            GameObject EnemyGo = Instantiate(GolemPrefab, EnemyPostion);
             EnemyStats = EnemyGo.GetComponent<Stats>();
             EnemyAnim = EnemyGo.transform.GetComponentInChildren<Animator>();
         }
