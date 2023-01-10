@@ -12,9 +12,13 @@ public class BattleSystem : MonoBehaviour
     private Animator PlayerAnim;
 
     private Animator EnemyAnim;
-    public GameObject PlayerPrefab;
+    public GameObject MalePrefab;
+    public GameObject FemalePrefab;
     public GameObject EnemyPrefab;
-    
+
+    public RuntimeAnimatorController MaleController;
+    public RuntimeAnimatorController FemaleController;
+
     public Transform PlayerPostion;
     public Transform EnemyPostion;
 
@@ -42,8 +46,8 @@ public class BattleSystem : MonoBehaviour
     void Start()
     {
         
-         state = BattleHandler.START;
-         StartCoroutine(setupBattle()); 
+        state = BattleHandler.START;
+        StartCoroutine(setupBattle());
     }
 
     IEnumerator setupBattle()
@@ -51,9 +55,18 @@ public class BattleSystem : MonoBehaviour
         PopupMessage.SetActive(false);
         PopupMessage2.SetActive(false);
         QandA.SetActive(false);
-        GameObject PlayerGO = Instantiate(PlayerPrefab, PlayerPostion);
-        PlayerStats = PlayerGO.GetComponent<Stats>();
-        PlayerAnim = PlayerGO.transform.GetComponentInChildren<Animator>();
+        GameObject PlayerGO;
+        if (charData.charGender == "Female")
+        {
+            PlayerGO = Instantiate(FemalePrefab, PlayerPostion);
+            PlayerStats = PlayerGO.GetComponent<Stats>();
+            PlayerAnim = PlayerGO.GetComponentInChildren<Animator>();
+        }else
+        {
+            PlayerGO = Instantiate(MalePrefab, PlayerPostion);
+            PlayerStats = PlayerGO.GetComponent<Stats>();
+            PlayerAnim = PlayerGO.transform.GetComponentInChildren<Animator>();
+        }
 
         GameObject EnemyGo = Instantiate(EnemyPrefab, EnemyPostion);
         EnemyStats = EnemyGo.GetComponent<Stats>();
@@ -128,12 +141,11 @@ public class BattleSystem : MonoBehaviour
 
         if (Attack)
         {
-            
             state = BattleHandler.LOST;
+            PlayerAnim.SetTrigger("DeathAnimation");
             EndBattle();
         } else 
         {
-            
             state = BattleHandler.PLAYERTURN;
             PlayerTurn();
         }

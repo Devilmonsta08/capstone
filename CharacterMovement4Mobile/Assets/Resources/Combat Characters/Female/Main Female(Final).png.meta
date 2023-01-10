@@ -832,10 +832,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Main Female(Final)_30: -932146102
       Main Female(Final)_22: 1919041326
       Main Female(Final)_26: 422309505
       Main Female(Final)_31: -2042696257
+      Main Female(Final)_5: 302698811
       Main Female(Final)_7: -1108946993
       Main Female(Final)_12: -105898294
       Main Female(Final)_21: 228132536
@@ -862,8 +862,8 @@ TextureImporter:
       Main Female(Final)_17: 1351802699
       Main Female(Final)_16: -447399272
       Main Female(Final)_9: -2134329841
+      Main Female(Final)_30: -932146102
       Main Female(Final)_15: -192498742
-      Main Female(Final)_5: 302698811
       Main Female(Final)_2: -131775960
   spritePackingTag: 
   pSDRemoveMatte: 0

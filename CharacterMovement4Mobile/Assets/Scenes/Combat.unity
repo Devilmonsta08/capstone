@@ -383,8 +383,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cffd1fe9189c7d54db768fd7f1f91580, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPrefab: {fileID: 7315367329798107609, guid: b75ab8d842cec2844839a200b36f7451, type: 3}
+  MalePrefab: {fileID: 7315367329798107609, guid: b75ab8d842cec2844839a200b36f7451, type: 3}
+  FemalePrefab: {fileID: 4813522577594636263, guid: 074694d1930660549a94f018e09c213c, type: 3}
   EnemyPrefab: {fileID: 7112272907626971816, guid: 71bb432f69325a24e82ea050ca2bc7a0, type: 3}
+  MaleController: {fileID: 9100000, guid: f0dadb2dd77f9fd478ec3fefee20bdd0, type: 2}
+  FemaleController: {fileID: 9100000, guid: 0040bb4daaaf44440ab48ce01d4c497d, type: 2}
   PlayerPostion: {fileID: 890848411}
   EnemyPostion: {fileID: 1045818249}
   TurnTextDialogue: {fileID: 529358199}
