@@ -6,8 +6,11 @@ using UnityEngine;
 [System.Serializable]
 public class GameData
 {
+    public int stageOneProgress;
+
     public string charName;
     public string charGender;
+    public int charHealth;
 
     public Character[] character;
     public float[] playerPosition;
@@ -20,8 +23,11 @@ public class GameData
 
     public GameData(CharacterDatabase charDB)
     {
+        stageOneProgress = charDB.stageOneProgress;
+
         charName = charDB.charName;
         charGender = charDB.charGender;
+        charHealth = charDB.charHealth;
 
         playerPosition = new float[3];
         playerPosition[0] = charDB.playerPosition.x;

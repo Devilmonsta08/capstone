@@ -16,6 +16,8 @@ public class SaveLoad : MonoBehaviour
     {
         GameData data = SaveSystem.LoadData();
 
+        charDB.stageOneProgress = data.stageOneProgress;
+
         charDB.charName = data.charName;
         charDB.charGender  = data.charGender;
 
