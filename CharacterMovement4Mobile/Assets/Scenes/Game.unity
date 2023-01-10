@@ -12203,7 +12203,7 @@ GameObject:
   - component: {fileID: 372158567}
   - component: {fileID: 372158566}
   m_Layer: 0
-  m_Name: Common Enemy 2
+  m_Name: Bug
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12240,7 +12240,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 0.64}
+    oldSize: {x: 1.28, y: 1.28}
     newSize: {x: 1, y: 0.64}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -12290,7 +12290,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1266931788, guid: 53a44a3b812edf04b83f0e80cec7e18d, type: 3}
+  m_Sprite: {fileID: 60396040, guid: 5c7edbb01e4278840892739e11445662, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -12329,7 +12329,7 @@ GameObject:
   - component: {fileID: 374156757}
   - component: {fileID: 374156756}
   m_Layer: 0
-  m_Name: Common Enemy 5
+  m_Name: Slime
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12366,7 +12366,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 0.64}
+    oldSize: {x: 0.48, y: 0.64}
     newSize: {x: 1, y: 0.64}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -12416,7 +12416,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1266931788, guid: 53a44a3b812edf04b83f0e80cec7e18d, type: 3}
+  m_Sprite: {fileID: -1410512662, guid: c313456933ae8dc4ab7d47133c5ab5e6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
