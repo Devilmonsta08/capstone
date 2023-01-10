@@ -803,7 +803,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9178be7b4d2f1048ae5231670a139de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  charDB: {fileID: 0}
+  charDB: {fileID: 11400000, guid: 9f1ade49099cbec4a9797fa6b1f8ac19, type: 2}
+  loadBtn: {fileID: 177772106}
 --- !u!1 &275550783
 GameObject:
   m_ObjectHideFlags: 0
@@ -859,6 +860,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   charDB: {fileID: 11400000, guid: 9f1ade49099cbec4a9797fa6b1f8ac19, type: 2}
+  loadBtn: {fileID: 177772106}
 --- !u!1 &348072851
 GameObject:
   m_ObjectHideFlags: 0

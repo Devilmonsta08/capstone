@@ -8,6 +8,7 @@ using UnityEngine.UI;
 public class MainMenu : MonoBehaviour
 {
     [SerializeField] private CharacterDatabase charDB;
+    [SerializeField] private Button loadBtn;
     private void Start()
     {
         string path = Application.persistentDataPath + "/dunamis.eyy";
@@ -29,7 +30,15 @@ public class MainMenu : MonoBehaviour
 
     public void LoadGame()
     {
-        SceneManager.LoadScene(4);
+        GameData data = SaveSystem.LoadData();
+        if (data.stageOneProgress == 4)
+        {
+            SceneManager.LoadScene(7);
+        }else
+        {
+            SceneManager.LoadScene(4);
+        }
+
         charDB.isLoad = true;
     }
     
