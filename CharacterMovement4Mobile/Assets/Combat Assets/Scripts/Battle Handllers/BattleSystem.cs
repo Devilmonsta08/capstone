@@ -183,6 +183,7 @@ public class BattleSystem : MonoBehaviour
         if (state == BattleHandler.WON)
         {
             PopupMessage.SetActive(true);
+            charData.stageOneProgress++;
             EnemyAnim.SetTrigger("EnemyDeath");
             addEnemyDefeated(charData.enemyName);
             charData.isWin = true;

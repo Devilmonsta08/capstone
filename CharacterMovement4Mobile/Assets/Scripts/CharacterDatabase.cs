@@ -6,6 +6,7 @@ using UnityEngine;
 public class CharacterDatabase : ScriptableObject 
 {
 	public bool isLoad;
+	public int stageOneProgress;
 
 	public string charName;
 	public string charGender;

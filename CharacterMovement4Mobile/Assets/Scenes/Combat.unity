@@ -400,6 +400,7 @@ MonoBehaviour:
   state: 0
   charData: {fileID: 11400000, guid: 9f1ade49099cbec4a9797fa6b1f8ac19, type: 2}
   saveLoad: {fileID: 785858617}
+  quizManager: {fileID: 0}
   QandA: {fileID: 779226816}
 --- !u!4 &112389130
 Transform:
@@ -1407,6 +1408,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbb5ac499ad53854684e5e3332098eb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  charDB: {fileID: 11400000, guid: 9f1ade49099cbec4a9797fa6b1f8ac19, type: 2}
 --- !u!1 &736115991
 GameObject:
   m_ObjectHideFlags: 0

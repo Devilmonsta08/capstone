@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: New Character Database
   m_EditorClassIdentifier: 
   isLoad: 0
+  stageOneProgress: 0
   charName: wihd
   charGender: Female
   charHealth: 100
@@ -24,7 +25,8 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0, z: 0}
   enemyName: Common Enemy 1
   isWin: 0
-  enemiesDefeated: []
+  enemiesDefeated:
+  - Common Enemy 1
   QnA:
   - Question: This Shirt is ____________ shirt in the shop
     Answers:
@@ -54,20 +56,6 @@ MonoBehaviour:
     - Coolest
     - Cool
     CorrectAnswer: 3
-  - Question: Elephants are ___________ than horses
-    Answers:
-    - Bigger
-    - Biggest
-    - As big as
-    - Big
-    CorrectAnswer: 1
-  - Question: Love is ___________ money.
-    Answers:
-    - The most important
-    - More important than
-    - As important as
-    - Important
-    CorrectAnswer: 2
   - Question: 'Be careful, the roads are___________. '
     Answers:
     - Dry

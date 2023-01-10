@@ -5,8 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class GameResult : MonoBehaviour
 {
+    [SerializeField] private CharacterDatabase charDB;
     public void exitCombat()
     {
-        SceneManager.LoadScene(4);
+        if(charDB.stageOneProgress == 4)
+        {
+            SceneManager.LoadScene(6);
+        }else
+        {
+            SceneManager.LoadScene(4);
+        }
     }
 }
