@@ -15,7 +15,7 @@ MonoBehaviour:
   isLoad: 0
   stageOneProgress: 0
   charName: 
-  charGender: 
+  charGender: Male
   charHealth: 100
   character:
   - characterName: 
@@ -23,10 +23,9 @@ MonoBehaviour:
   - characterName: 
     characterSprite: {fileID: 547071175, guid: 49b82a7adde42264390f1f4d60c6c05c, type: 3}
   playerPosition: {x: 0, y: 0, z: 0}
-  enemyName: 
+  enemyName: 'Common Enemy 1 '
   isWin: 0
-  enemiesDefeated:
-  - Common Enemy 1
+  enemiesDefeated: []
   QnA:
   - Question: My friends and I _______  a horror film.
     Answers:
@@ -35,13 +34,6 @@ MonoBehaviour:
     - Wash
     - Wacht
     CorrectAnswer: 1
-  - Question: Every Filipino ______his/her share of serving to his/her country
-    Answers:
-    - Do
-    - Does
-    - Dos
-    - Deos
-    CorrectAnswer: 2
   - Question: Each scouting organization________  the youth to be obedient and responsible.
     Answers:
     - Teach
@@ -49,13 +41,6 @@ MonoBehaviour:
     - Teaches
     - Trees
     CorrectAnswer: 3
-  - Question: Manny and Joy _________  their household wastes.
-    Answers:
-    - Segregtes
-    - Segregates
-    - Segregets
-    - Secrets
-    CorrectAnswer: 2
   - Question: Villamiel Family ________ the finances well.
     Answers:
     - Manage
@@ -84,13 +69,6 @@ MonoBehaviour:
     - Helps
     - Help
     CorrectAnswer: 1
-  - Question: The magician _______the door to the hunters.
-    Answers:
-    - Shoot
-    - Shut
-    - Sheet
-    - Shats
-    CorrectAnswer: 2
   - Question: Magnus, the Good Magician ______  his magic to help the people of Mount
       Magubat.
     Answers:
@@ -120,20 +98,6 @@ MonoBehaviour:
     - Diliver
     - Threw
     CorrectAnswer: 1
-  - Question: 'Jumbled Letters: She (S M E S S I) Her Granpa'
-    Answers:
-    - Messis
-    - Misses
-    - Sissem
-    - Issems
-    CorrectAnswer: 2
-  - Question: 'Jumbled Letters: He (S P L A N) for the future of his family'
-    Answers:
-    - Plans
-    - Nalps
-    - Slapn
-    - Nlaps
-    CorrectAnswer: 1
   - Question: 'Jumbled Letters: Prayer  ( S W O  R K ) most of the time. '
     Answers:
     - kows
@@ -141,27 +105,6 @@ MonoBehaviour:
     - Works
     - Swork
     CorrectAnswer: 3
-  - Question: 'Jumbled Letters: It (K O S O L) good on you'
-    Answers:
-    - Look
-    - Looks
-    - Kools
-    - Slook
-    CorrectAnswer: 2
-  - Question: 'Jumbled Letters: This top  (S E M A T C H  ) my shorts.'
-    Answers:
-    - Matches
-    - Amesthc
-    - Chatmes
-    - Sematch
-    CorrectAnswer: 1
-  - Question: 'Jumbled Letters: We (V I T E I N  S) our family friends every fiesta.'
-    Answers:
-    - Sienty
-    - Invites
-    - Siteniv
-    - Viteins
-    CorrectAnswer: 2
   - Question: 'Jumbled Letters: You  (era) the writters of this modules.'
     Answers:
     - Era
@@ -218,13 +161,6 @@ MonoBehaviour:
     - Lekis
     - Kiles
     CorrectAnswer: 2
-  - Question: Our thesis ________  everything.
-    Answers:
-    - Its
-    - Sits
-    - It
-    - Is
-    CorrectAnswer: 4
   - Question: Her parents _____  good about her scores in the Math test.
     Answers:
     - Fills
@@ -232,13 +168,6 @@ MonoBehaviour:
     - Feel
     - Feels
     CorrectAnswer: 3
-  - Question: She ______  various academic programs.
-    Answers:
-    - Has
-    - Have
-    - Haved
-    - Had
-    CorrectAnswer: 2
   - Question: Yae _____  his hand-made lanterns.
     Answers:
     - Hangs
@@ -274,13 +203,6 @@ MonoBehaviour:
     - To
     - With
     CorrectAnswer: 1
-  - Question: He is afflicted _____________  a serious sickness.
-    Answers:
-    - With
-    - To
-    - By
-    - Of
-    CorrectAnswer: 3
   - Question: You must apologize _____________  him for your bad attitude.
     Answers:
     - To
@@ -316,14 +238,6 @@ MonoBehaviour:
     - With
     - To
     CorrectAnswer: 1
-  - Question: After the singing competition, the judges were comparing their judgement
-      scores ___________ (By) each other.
-    Answers:
-    - To
-    - For
-    - With
-    - By
-    CorrectAnswer: 4
   - Question: 10.We went out ___________  the thunderstorm.
     Answers:
     - However
@@ -331,13 +245,6 @@ MonoBehaviour:
     - In Spite of
     - Instead Of
     CorrectAnswer: 3
-  - Question: He passed the exam ____________ (Because of) his teacher.
-    Answers:
-    - Because of
-    - Becaue
-    - In Spite of
-    - Because for
-    CorrectAnswer: 1
   - Question: The old woman was ___________ (Bitten) by a rabid monkey.
     Answers:
     - Bitten

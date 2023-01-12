@@ -10,6 +10,8 @@ public class GameResult : MonoBehaviour
     {
         if(charDB.stageOneProgress == 4)
         {
+            charDB.isLoad = false;
+            charDB.playerPosition = new Vector3(0, 0, 0);
             SceneManager.LoadScene(6);
         }else
         {
