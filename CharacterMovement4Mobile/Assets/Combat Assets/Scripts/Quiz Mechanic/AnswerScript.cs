@@ -12,7 +12,6 @@ public class AnswerScript : MonoBehaviour
 
     
     public void Answer()
-    
     {
         if(isCorrect)
         {
@@ -27,6 +26,5 @@ public class AnswerScript : MonoBehaviour
             quizManager.Wrong();
             battleSystem.EnemyTurn();
         }
-        
     }
 }

@@ -41,6 +41,8 @@ public class QuizManager : MonoBehaviour
             {
                 options[i].GetComponent<Image>().color = new Color32(0, 255, 0, 255);
             }
+
+            options[i].GetComponent<Button>().interactable = false;
         }
 
         yield return new WaitForSeconds(2f);
@@ -48,6 +50,7 @@ public class QuizManager : MonoBehaviour
         for (int i = 0; i < options.Length; i++)
         {
             options[i].GetComponent<Image>().color = new Color32(255, 255, 255, 255);
+            options[i].GetComponent<Button>().interactable = true;
         }
 
         generateQuestion();
@@ -58,7 +61,6 @@ public class QuizManager : MonoBehaviour
     {
         for (int i = 0; i < options.Length; i++)
         {
-            
             options[i].GetComponent<AnswerScript>().isCorrect = false;
             options[i].transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = charDB.QnA[currentQuestion].Answers[i];
 
@@ -68,7 +70,6 @@ public class QuizManager : MonoBehaviour
             }
         }
     }
-
 
     void generateQuestion()
     {

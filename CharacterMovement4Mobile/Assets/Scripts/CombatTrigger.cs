@@ -22,7 +22,6 @@ public class CombatTrigger : MonoBehaviour
         {
             Destroy(GameObject.Find(charData.enemyName));
         }
-
         player.position = charData.playerPosition;
     }
 }
