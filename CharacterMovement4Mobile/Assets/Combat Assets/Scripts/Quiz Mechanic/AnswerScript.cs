@@ -8,14 +8,17 @@ public class AnswerScript : MonoBehaviour
     public bool isCorrect = false;
     public QuizManager quizManager;
     public BattleSystem battleSystem;
-     public Text TurnTextDialogue;
+    public Text TurnTextDialogue;
 
+    public Button[] options;
+
+    [SerializeField] private CharacterDatabase charDB;
     
     public void Answer()
     {
         if(isCorrect)
         {
-           TurnTextDialogue.text = "Your Answer is Correct";
+            TurnTextDialogue.text = "Your Answer is Correct";
             Debug.Log("Answer Correct");
             quizManager.Correct();
             battleSystem.PlayerAttack();

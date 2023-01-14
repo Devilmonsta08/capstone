@@ -36865,7 +36865,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1628602383
 Animator:
-  serializedVersion: 5
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -36882,7 +36882,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!50 &1628602384
 Rigidbody2D:
   serializedVersion: 4
@@ -36970,7 +36970,7 @@ AudioSource:
   m_GameObject: {fileID: 1628602380}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 43b57362fa49db748a2e34adcd93c461, type: 2}
   m_audioClip: {fileID: 8300000, guid: ee9e996f04513504980f85b0caf1a4b0, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.1
@@ -37258,6 +37258,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: AudioManager
       objectReference: {fileID: 0}
+    - target: {fileID: 8889459131509462689, guid: e6ad357e35ad66e46b4cadd30bd04d4a, type: 3}
+      propertyPath: sounds.Array.data[0].group
+      value: 
+      objectReference: {fileID: 24300002, guid: 43b57362fa49db748a2e34adcd93c461, type: 2}
     - target: {fileID: 8889459131509462689, guid: e6ad357e35ad66e46b4cadd30bd04d4a, type: 3}
       propertyPath: sounds.Array.data[0].volume
       value: 0.034

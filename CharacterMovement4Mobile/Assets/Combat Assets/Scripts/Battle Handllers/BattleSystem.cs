@@ -24,6 +24,8 @@ public class BattleSystem : MonoBehaviour
     public GameObject GoblinPrefab;
     public GameObject GolemPrefab;
 
+    public Button[] options;
+
     public Image backgroundImg;
 
     public Transform PlayerPostion;
@@ -209,6 +211,7 @@ public class BattleSystem : MonoBehaviour
     }
     void EndBattle()
     {
+
         if (state == BattleHandler.WON)
         {
             PopupMessage.SetActive(true);
@@ -244,10 +247,26 @@ public class BattleSystem : MonoBehaviour
 
     private void PlayerLost()
     {
-        charData.enemiesDefeated.Clear();
         charData.charHealth = 100;
         charData.playerPosition = new Vector3(0, 0, 0);
         charData.QnA = quizManager.QnA;
+
+        if(charData.enemiesDefeated.Count < 4)
+        {
+            // STAGE 1 RESTART
+            charData.enemiesDefeated.Clear();
+        }
+        else if(charData.enemiesDefeated.Count >= 4)
+        {
+            // STAGE 2 RESTART
+            if(charData.enemiesDefeated.Contains("Goblin")) charData.enemiesDefeated.Remove("Goblin");
+            if (charData.enemiesDefeated.Contains("Golem")) charData.enemiesDefeated.Remove("Golem");
+            if (charData.enemiesDefeated.Contains("Eyeball")) charData.enemiesDefeated.Remove("Eyeball");
+        }
+        else
+        {
+            // STAGE 3 RESTART
+        }
     }
 
 }

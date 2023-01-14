@@ -18,7 +18,17 @@ public class Stats : MonoBehaviour
 
     private void OnDisable()
     {
-        if (unitName == "Player") charDB.charHealth = currentHP;
+        if (unitName == "Player")
+        {
+            if(currentHP <= 0)
+            {
+                charDB.charHealth = 100;
+            }else
+            {
+                charDB.charHealth = currentHP;
+            }
+        }
+            
     }
 
     public bool TakeDamage(int Dmg)

@@ -321,7 +321,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 032a2b93937fcb54e9b64747b4a66d19, type: 3}
-  m_Type: 0
+  m_Type: 2
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -329,7 +329,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 0.65
 --- !u!114 &13462998
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -346,6 +346,8 @@ MonoBehaviour:
   quizManager: {fileID: 1618910190}
   battleSystem: {fileID: 112389129}
   TurnTextDialogue: {fileID: 529358199}
+  options: []
+  charDB: {fileID: 0}
 --- !u!222 &13462999
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -393,6 +395,11 @@ MonoBehaviour:
   EyeballPrefab: {fileID: 4482599186802048371, guid: 8b6164b474530cb4d9994dfe2f064a92, type: 3}
   GoblinPrefab: {fileID: 7836821920067843261, guid: ba4ae8322f38be64f9610502885ccad2, type: 3}
   GolemPrefab: {fileID: 1983157456542585740, guid: 713c35a743c6a864fab7b54bee48a35a, type: 3}
+  options:
+  - {fileID: 1623605873}
+  - {fileID: 526279321}
+  - {fileID: 2007520288}
+  - {fileID: 13462996}
   backgroundImg: {fileID: 987094595}
   PlayerPostion: {fileID: 890848411}
   EnemyPostion: {fileID: 1045818249}
@@ -538,7 +545,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 032a2b93937fcb54e9b64747b4a66d19, type: 3}
-  m_Type: 0
+  m_Type: 2
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -546,7 +553,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 0.65
 --- !u!222 &113997067
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -622,7 +629,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 0.49
 --- !u!222 &123483145
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1142,7 +1149,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 032a2b93937fcb54e9b64747b4a66d19, type: 3}
-  m_Type: 0
+  m_Type: 2
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1150,7 +1157,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 0.65
 --- !u!114 &526279323
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1167,6 +1174,8 @@ MonoBehaviour:
   quizManager: {fileID: 1618910190}
   battleSystem: {fileID: 112389129}
   TurnTextDialogue: {fileID: 529358199}
+  options: []
+  charDB: {fileID: 0}
 --- !u!222 &526279324
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1687,6 +1696,10 @@ PrefabInstance:
       propertyPath: sounds.Array.data[0].clip
       value: 
       objectReference: {fileID: 8300000, guid: 6184f91539ea94f4fb92eeb27a93080b, type: 3}
+    - target: {fileID: 8889459131509462689, guid: e6ad357e35ad66e46b4cadd30bd04d4a, type: 3}
+      propertyPath: sounds.Array.data[0].group
+      value: 
+      objectReference: {fileID: 24300002, guid: 43b57362fa49db748a2e34adcd93c461, type: 2}
     - target: {fileID: 8889459131509462694, guid: e6ad357e35ad66e46b4cadd30bd04d4a, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -2651,7 +2664,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 7497ee8f8000ab540a05c6cd03c773ed, type: 3}
-  m_Type: 0
+  m_Type: 2
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -2659,7 +2672,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 0.15
 --- !u!222 &1199940934
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2703,7 +2716,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -54.647003}
+  m_AnchoredPosition: {x: 0, y: -54.647034}
   m_SizeDelta: {x: 490.25, y: 180.53998}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &1338108883
@@ -2823,7 +2836,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 032a2b93937fcb54e9b64747b4a66d19, type: 3}
-  m_Type: 0
+  m_Type: 2
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -2831,7 +2844,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 0.65
 --- !u!222 &1338108887
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2899,7 +2912,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 7497ee8f8000ab540a05c6cd03c773ed, type: 3}
-  m_Type: 0
+  m_Type: 2
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -2907,7 +2920,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 0.15
 --- !u!222 &1427900972
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2952,7 +2965,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
   m_AnchoredPosition: {x: -69.155045, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 97, y: 87}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1520623575
 MonoBehaviour:
@@ -3051,7 +3064,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: c0d621290ddf93a4f9e9b07b23cdf244, type: 3}
-  m_Type: 0
+  m_Type: 2
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -3059,7 +3072,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 0.9
 --- !u!222 &1571414615
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3638,7 +3651,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 032a2b93937fcb54e9b64747b4a66d19, type: 3}
-  m_Type: 0
+  m_Type: 2
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -3646,7 +3659,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 0.65
 --- !u!222 &1623605875
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3671,6 +3684,8 @@ MonoBehaviour:
   quizManager: {fileID: 1618910190}
   battleSystem: {fileID: 112389129}
   TurnTextDialogue: {fileID: 529358199}
+  options: []
+  charDB: {fileID: 0}
 --- !u!1 &1671829564
 GameObject:
   m_ObjectHideFlags: 0
@@ -3707,7 +3722,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: 75, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 97, y: 87}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1671829566
 MonoBehaviour:
@@ -4316,7 +4331,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 032a2b93937fcb54e9b64747b4a66d19, type: 3}
-  m_Type: 0
+  m_Type: 2
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -4324,7 +4339,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 0.65
 --- !u!114 &2007520290
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4341,6 +4356,8 @@ MonoBehaviour:
   quizManager: {fileID: 1618910190}
   battleSystem: {fileID: 112389129}
   TurnTextDialogue: {fileID: 529358199}
+  options: []
+  charDB: {fileID: 0}
 --- !u!222 &2007520291
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4376,7 +4393,7 @@ RectTransform:
   m_GameObject: {fileID: 2061408375}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 5, y: 2, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1245271803}
@@ -4384,8 +4401,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 3.1600037, y: 13.119995}
-  m_SizeDelta: {x: -376.45, y: -67.47}
+  m_AnchoredPosition: {x: -0.000015258789, y: 0.00024414062}
+  m_SizeDelta: {x: 0, y: 0.00053406}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2061408377
 MonoBehaviour:
@@ -4408,7 +4425,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 7497ee8f8000ab540a05c6cd03c773ed, type: 3}
-  m_Type: 0
+  m_Type: 2
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -4416,7 +4433,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 0.3
 --- !u!222 &2061408378
 CanvasRenderer:
   m_ObjectHideFlags: 0

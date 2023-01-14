@@ -20,6 +20,7 @@ public class CharacterDatabase : ScriptableObject
 	public List<string> enemiesDefeated;
 
     public List<QuestionAndAnswer> QnA;
+    public List<QuestionAndAnswer> AnsweredQnA;
 
     private void OnEnable() 
 	{

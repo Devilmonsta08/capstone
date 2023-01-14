@@ -26,8 +26,22 @@ public class QuizManager : MonoBehaviour
     }
     public void Correct()
     {
+        //AnsweredQnA = new List<QuestionAndAnswer> { charDB.QnA[currentQuestion] };
+        Answered(charDB.QnA[currentQuestion]);
         charDB.QnA.RemoveAt(currentQuestion);
         StartCoroutine(GreenRed());
+    }
+
+    private void Answered(QuestionAndAnswer qna)
+    {
+        if (charDB.AnsweredQnA == null)
+        {
+            charDB.AnsweredQnA = new List<QuestionAndAnswer> { qna };
+        }
+        else if (!charDB.AnsweredQnA.Contains(qna))
+        {
+            charDB.AnsweredQnA.Add(qna);
+        }
     }
 
     private IEnumerator GreenRed()
@@ -47,13 +61,16 @@ public class QuizManager : MonoBehaviour
 
         yield return new WaitForSeconds(2f);
 
-        for (int i = 0; i < options.Length; i++)
+        if (!charDB.isWin)
         {
-            options[i].GetComponent<Image>().color = new Color32(255, 255, 255, 255);
-            options[i].GetComponent<Button>().interactable = true;
-        }
+            for (int i = 0; i < options.Length; i++)
+            {
+                options[i].GetComponent<Image>().color = new Color32(255, 255, 255, 255);
+                options[i].GetComponent<Button>().interactable = true;
+            }
 
-        generateQuestion();
+            generateQuestion();
+        }
     }
     
 
