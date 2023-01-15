@@ -3359,7 +3359,7 @@ MonoBehaviour:
     AnswerWord: Misses
     Classification: Verb
     Definition: To not see or hear something or someone.
-    Example: 'Jumbled Letters: She <b>misses</b> her grandfather.'
+    Example: She <b>misses</b> her grandfather.
   - Question: 'Jumbled Letters: He (S P L A N) for the future of his family'
     Answers:
     - Plans
@@ -3370,7 +3370,7 @@ MonoBehaviour:
     AnswerWord: Plans
     Classification: Noun
     Definition: "A set of\_decisions\_about how to do something in the\_future."
-    Example: 'Jumbled Letters: He <b>plans</b> for the future of his family'
+    Example: He <b>plans</b> for the future of his family
   - Question: 'Jumbled Letters: Prayer ( S W O  R K ) most of the time. '
     Answers:
     - kows
@@ -3381,7 +3381,7 @@ MonoBehaviour:
     AnswerWord: Works
     Classification: Plural Noun
     Definition: 'All the extra things that may be offered with something. '
-    Example: 'Jumbled Letters: Prayer <b>works</b> most of the time. '
+    Example: 'Prayer <b>works</b> most of the time. '
   - Question: 'Jumbled Letters: It (K O S O L) good on you'
     Answers:
     - Look
@@ -3392,7 +3392,7 @@ MonoBehaviour:
     AnswerWord: Looks
     Classification: Verb
     Definition: To direct your eyes in order to see.
-    Example: 'Jumbled Letters: It <b>looks</b> good on you'
+    Example: It <b>looks</b> good on you
   - Question: 'Jumbled Letters: This top  (S E M A T C H) my shorts.'
     Answers:
     - Matches
@@ -3404,7 +3404,7 @@ MonoBehaviour:
     Classification: Noun
     Definition: A person or thing that is equal to another person or thing in strength,
       speed, or quality
-    Example: 'Jumbled Letters: This top <b>matches</b> my shorts.'
+    Example: This top <b>matches</b> my shorts.
   - Question: 'Jumbled Letters: We (V I T E I N  S) our family friends every fiesta.'
     Answers:
     - Sienty
@@ -3415,7 +3415,7 @@ MonoBehaviour:
     AnswerWord: Invite
     Classification: Noun
     Definition: "The\_act\_of\_inviting\_someone to go to an\_event."
-    Example: 'Jumbled Letters: We <b>invite</b> our family friends every fiesta.'
+    Example: We <b>invite</b> our family friends every fiesta.
   - Question: 'Jumbled Letters: Bill and Clinton (E R A) the writters of this modules.'
     Answers:
     - Era
@@ -3427,7 +3427,7 @@ MonoBehaviour:
     Classification: Verb
     Definition: "second person\_singular\_present and first, second, third person\_plural\_present
       of\_be."
-    Example: 'Jumbled Letters: Bill and Clinton <b>are</b> the writters of this modules.'
+    Example: Bill and Clinton <b>are</b> the writters of this modules.
   - Question: It is Steve who always  _______  for our snacks.
     Answers:
     - Eat
