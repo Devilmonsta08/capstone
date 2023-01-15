@@ -16,7 +16,7 @@ public class Dictionary : MonoBehaviour
 
     private void OnEnable()
     {
-        if(charDB.AnsweredQnA != null)
+        if (charDB.AnsweredQnA != null)
         {
             NoContentTxt.SetActive(false);
 
@@ -48,9 +48,9 @@ public class Dictionary : MonoBehaviour
 
     private void OnDisable()
     {
-        foreach(Transform words in transform)
+        foreach (Transform words in transform)
         {
-            Destroy(transform.gameObject);
+            Destroy(words.gameObject);
         }
     }
 
