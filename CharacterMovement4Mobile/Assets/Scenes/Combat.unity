@@ -3209,8 +3209,8 @@ MonoBehaviour:
     Classification: Verb
     Definition: "To\_look\_at something for a\_period\_of\_time,\_especially\_something
       that is\_changing\_or\_moving."
-    Example: My friends and I <b>Watch</b>  a horror film.
-  - Question: Every Filipino  ______ his/her share of serving to his/her country
+    Example: My friends and I <b>watch</b>  a horror film.
+  - Question: Every Filipino ______ his/her share of serving to his/her country
     Answers:
     - Do
     - Does
@@ -3220,7 +3220,7 @@ MonoBehaviour:
     AnswerWord: Does
     Classification: Verb
     Definition: "Present simple of\_do, used with he/she/it."
-    Example: Every Filipino  <b>does</b> his/her share of serving to his/her country
+    Example: Every Filipino <b>does</b> his/her share of serving to his/her country
   - Question: Each scouting organization ________  the youth to be obedient and responsible.
     Answers:
     - Teach
@@ -3231,54 +3231,54 @@ MonoBehaviour:
     AnswerWord: Teaches
     Classification: Verb
     Definition: " To give someone\_knowledge\_or to\_train\_someone; to\_instruct."
-    Example: Each scouting organization <b>Teaches</b>  the youth to be obedient
-      and responsible.
+    Example: Each scouting organization <b>teaches</b> the youth to be obedient and
+      responsible.
   - Question: Manny and Joy  _________  their household wastes.
     Answers:
     - Segregtes
-    - Segregates
+    - Segregate
     - Segregets
     - Secrets
     CorrectAnswer: 2
-    AnswerWord: Segregates
+    AnswerWord: Segregate
     Classification: Verb
     Definition: "To\_keep\_one thing\_separate\_from another."
-    Example: Manny and Joy  <b>segregates</b>  their household wastes.
+    Example: Manny and Joy  <b>segregate</b>  their household wastes.
   - Question: Villamiel Family ________ the finances well.
     Answers:
     - Manage
     - Manages
     - Manager
     - Manggo
-    CorrectAnswer: 1
-    AnswerWord: Manage
+    CorrectAnswer: 2
+    AnswerWord: Manages
     Classification: Verb
     Definition: To succeed in doing or dealing with something, especially something
       difficult.
-    Example: Villamiel Family <b>manage</b> the finances well.
-  - Question: Filipino  ________  their country, the Philippines.
+    Example: Villamiel Family <b>manages</b> the finances well.
+  - Question: Filipinos ________ their country, the Philippines.
     Answers:
-    - Loves
+    - Love
     - Lobes
     - Leeves
     - Lots
     CorrectAnswer: 1
-    AnswerWord: Loves
+    AnswerWord: Love
     Classification: Verb
     Definition: "To like another\_adult\_very much and be\_romantically\_and\_sexually\_attracted\_to
       them, or to have\_strong\_feelings\_of\_liking\_a\_friend\_or\_person\_in\_your\_family."
-    Example: Filipino <b>loves</b> their country, the Philippines.
-  - Question: 'Our teachers  ______  here in the near subdivision. '
+    Example: Filipino <b>love</b> their country, the Philippines.
+  - Question: 'Our teachers  ______  here, in the nearby subdivision. '
     Answers:
     - Loves
+    - Live
     - Lives
-    - Gets
     - Legs
     CorrectAnswer: 2
-    AnswerWord: Lives
+    AnswerWord: Live
     Classification: Verb
     Definition: Make one's home in a particular place or with a particular person.
-    Example: 'Our teachers  <b>lives</b>  here in the near subdivision. '
+    Example: 'Our teachers <b>live</b> here, in the nearby subdivision. '
   - Question: Our national heroes  _______  me.
     Answers:
     - Inspire
@@ -3290,7 +3290,7 @@ MonoBehaviour:
     Classification: Verb
     Definition: "To make someone\_feel\_that they\_want\_to do something and can
       do it."
-    Example: Our national heroes  <b>inspire</b>  me.
+    Example: Our national heroes <b>inspire</b> me.
   - Question: The magician  _______ the door to the hunters.
     Answers:
     - Shoot
@@ -3301,55 +3301,55 @@ MonoBehaviour:
     AnswerWord: Shuts
     Classification: Verb
     Definition: "To (cause\_to)\_close\_something."
-    Example: The magician  <b>shuts</b> the door to the hunters.
-  - Question: Magnus, the Good Magician  ______  his magic to help the people of
+    Example: The magician <b>shuts</b> the door to the hunters.
+  - Question: Magnus, the Good Magician,  ______  his magic to help the people of
       Mount Magubat.
     Answers:
     - Use
     - Uses
     - Used
     - Usess
-    CorrectAnswer: 1
-    AnswerWord: Use
+    CorrectAnswer: 3
+    AnswerWord: Used
     Classification: Verb
     Definition: "To put something such as a\_tool,\_skill, or\_building\_to a\_particular\_purpose."
-    Example: Magnus, the Good Magician  <b>use</b>  his magic to help the people
+    Example: Magnus, the Good Magician, <b>used</b> his magic to help the people
       of Mount Magubat.
-  - Question: Maria  _______  to read the secret dairy of Magnus.
+  - Question: Maria  _______  to read the secret diary of Magnus.
     Answers:
     - Tries
     - Tried
     - Try
     - Tree
-    CorrectAnswer: 3
-    AnswerWord: Try
+    CorrectAnswer: 1
+    AnswerWord: Tries
     Classification: Verb
     Definition: "To not\_move\_away from or\_leave\_a\_place\_or\_situation. "
-    Example: Maria <b>try</b>  to read the secret dairy of Magnus.
+    Example: Maria <b>tries</b> to read the secret diary of Magnus.
   - Question: "The little girl  _______  inside the wizard\u2019s lair for the night. "
     Answers:
     - Stays
     - Stood
     - Stand
     - Stay
-    CorrectAnswer: 4
-    AnswerWord: Stay
+    CorrectAnswer: 1
+    AnswerWord: Stays
     Classification: Verb
     Definition: "To not\_move\_away from or\_leave\_a\_place\_or\_situation."
-    Example: "The little girl  <b>stay</b>  inside the wizard\u2019s lair for the
+    Example: "The little girl <b>stays</b> inside the wizard\u2019s lair for the
       night. "
   - Question: "Manuel  ___________  the letter to the wizard\u2019s house."
     Answers:
     - Deliver
-    - Deilvers
+    - Delivers
     - Diliver
     - Threw
-    CorrectAnswer: 1
-    AnswerWord: Deliver
+    CorrectAnswer: 2
+    AnswerWord: Delivers
     Classification: Verb
-    Definition: " To take\_goods,\_letters,\_packages, etc. to people's\_houses\_or\_places\_of\_work."
-    Example: "Manuel  <b>deliver</b>  the letter to the wizard\u2019s house."
-  - Question: 'Jumbled Letters: She (S M E S S I) Her Granpa'
+    Definition: "To take\_goods,\_letters,\_packages, etc. to people's\_houses\_or\_places\_of\_work."
+    Example: "Manuel <b>delivers</b> the letter to the wizard\u2019s house."
+  - Question: 'Jumbled Letters: She (S M E S S I) her grandfather.'
     Answers:
     - Messis
     - Misses
@@ -3358,9 +3358,8 @@ MonoBehaviour:
     CorrectAnswer: 2
     AnswerWord: Misses
     Classification: Verb
-    Definition: "To fail to do or experience something, often something\_planned\_or\_expected,
-      or to\_avoid\_doing or\_experiencing\_something."
-    Example: 'Jumbled Letters: She <b>misses</b> Her Granpa'
+    Definition: To not see or hear something or someone.
+    Example: 'Jumbled Letters: She <b>misses</b> her grandfather.'
   - Question: 'Jumbled Letters: He (S P L A N) for the future of his family'
     Answers:
     - Plans
@@ -3372,7 +3371,7 @@ MonoBehaviour:
     Classification: Noun
     Definition: "A set of\_decisions\_about how to do something in the\_future."
     Example: 'Jumbled Letters: He <b>plans</b> for the future of his family'
-  - Question: 'Jumbled Letters: Prayer  ( S W O  R K ) most of the time. '
+  - Question: 'Jumbled Letters: Prayer ( S W O  R K ) most of the time. '
     Answers:
     - kows
     - Wosrk
@@ -3382,7 +3381,7 @@ MonoBehaviour:
     AnswerWord: Works
     Classification: Plural Noun
     Definition: 'All the extra things that may be offered with something. '
-    Example: 'Jumbled Letters: Prayer  <b>works</b> most of the time. '
+    Example: 'Jumbled Letters: Prayer <b>works</b> most of the time. '
   - Question: 'Jumbled Letters: It (K O S O L) good on you'
     Answers:
     - Look
@@ -3394,7 +3393,7 @@ MonoBehaviour:
     Classification: Verb
     Definition: To direct your eyes in order to see.
     Example: 'Jumbled Letters: It <b>looks</b> good on you'
-  - Question: 'Jumbled Letters: This top  (S E M A T C H  ) my shorts.'
+  - Question: 'Jumbled Letters: This top  (S E M A T C H) my shorts.'
     Answers:
     - Matches
     - Amesthc
@@ -3403,21 +3402,21 @@ MonoBehaviour:
     CorrectAnswer: 1
     AnswerWord: Matches
     Classification: Noun
-    Definition: " A sports\_competition\_or\_event\_in which two\_people\_or\_teams\_compete\_against
-      each other."
+    Definition: A person or thing that is equal to another person or thing in strength,
+      speed, or quality
     Example: 'Jumbled Letters: This top <b>matches</b> my shorts.'
   - Question: 'Jumbled Letters: We (V I T E I N  S) our family friends every fiesta.'
     Answers:
     - Sienty
-    - Invites
+    - Invite
     - Siteniv
     - Viteins
     CorrectAnswer: 2
-    AnswerWord: Invites
+    AnswerWord: Invite
     Classification: Noun
     Definition: "The\_act\_of\_inviting\_someone to go to an\_event."
-    Example: 'Jumbled Letters: We <b>invites</b> our family friends every fiesta.'
-  - Question: 'Jumbled Letters: You  (E R A) the writters of this modules.'
+    Example: 'Jumbled Letters: We <b>invite</b> our family friends every fiesta.'
+  - Question: 'Jumbled Letters: Bill and Clinton (E R A) the writters of this modules.'
     Answers:
     - Era
     - Are
@@ -3428,34 +3427,34 @@ MonoBehaviour:
     Classification: Verb
     Definition: "second person\_singular\_present and first, second, third person\_plural\_present
       of\_be."
-    Example: 'Jumbled Letters: You  <b>are</b> the writters of this modules.'
-  - Question: It is Steve Who Always  _______  for our snacks
+    Example: 'Jumbled Letters: Bill and Clinton <b>are</b> the writters of this modules.'
+  - Question: It is Steve who always  _______  for our snacks.
     Answers:
     - Eat
     - Pay
     - Pays
     - Yap
-    CorrectAnswer: 2
-    AnswerWord: Pay
+    CorrectAnswer: 3
+    AnswerWord: Pays
     Classification: Verb
-    Definition: " T give\_money\_to someone for something you\_want\_to\_buy\_or
+    Definition: "To give\_money\_to someone for something you\_want\_to\_buy\_or
       for\_services\_provided."
-    Example: It is Steve Who Always  <b>pay</b>  for our snacks
+    Example: It is Steve who always <b>pays</b> for our snacks.
   - Question: An unknown man  ________   on me.
     Answers:
     - Spy
     - Spied
     - Look
     - Stare
-    CorrectAnswer: 1
-    AnswerWord: Spy
+    CorrectAnswer: 2
+    AnswerWord: Spied
     Classification: Noun
     Definition: "A person\_who\_secretly\_collects\_and\_reports\_information\_about
       the\_activities\_of another\_country\_or\_organization"
-    Example: An unknown man  <b>spy</b>  on me.
-  - Question: "A lady ________ \u201CStop!\u201D "
+    Example: An unknown man <b>spied</b> on me.
+  - Question: "A lady ________, \u201CStop!\u201D "
     Answers:
-    - Said
+    - Say
     - Says
     - Said
     - Tells To
@@ -3464,30 +3463,30 @@ MonoBehaviour:
     Classification: Verb
     Definition: "To\_pronounce\_words or\_sounds, to\_express\_a\_thought,\_opinion,
       or\_suggestion, or to\_state\_a\_fact\_or\_instruction."
-    Example: "A lady <b>said</b> \u201CStop!\u201D "
-  - Question: An orange butterlfy ___________  in the house.
+    Example: "A lady <b>said</b>, \u201CStop!\u201D "
+  - Question: In the house, an orange butterfly ___________ .
     Answers:
     - Ylf
     - Fly
     - Flies
     - Flow
-    CorrectAnswer: 2
-    AnswerWord: Fly
+    CorrectAnswer: 3
+    AnswerWord: Flies
     Classification: Verb
     Definition: "When a\_bird,\_insect, or\_aircraft\_flies, it\_moves\_through the\_air."
-    Example: An orange butterlfy <b>fly</b>  in the house.
+    Example: In the house, an orange butterfly<b>flies</b>.
   - Question: Christian _________  playing badminton.
     Answers:
     - Enjoy
     - Enjoys
     - Enjoyed
     - Enjoies
-    CorrectAnswer: 1
-    AnswerWord: Enjoy
+    CorrectAnswer: 2
+    AnswerWord: Enjoys
     Classification: Verb
     Definition: "To get\_pleasure\_from something."
-    Example: Christian <b>enjoy</b>  playing badminton.
-  - Question: The adults __________  sure of their chosen games.
+    Example: Christian <b>enjoys</b> playing badminton.
+  - Question: The adults should __________  sure of their chosen games.
     Answers:
     - Be
     - Like
@@ -3498,8 +3497,8 @@ MonoBehaviour:
     Classification: Verb
     Definition: "Used to say something about a\_person, thing, or\_state, to show
       a\_permanent\_or\_temporary\_quality,\_state,\_job."
-    Example: The adults <b>be</b>  sure of their chosen games.
-  - Question: 'Paula _________  the taste of the coffee with '
+    Example: The adults should <b>be</b> sure of their chosen games.
+  - Question: Paula _________  the taste of the coffee with creamer in it.
     Answers:
     - Liked
     - Likes
@@ -3509,7 +3508,7 @@ MonoBehaviour:
     AnswerWord: Likes
     Classification: Noun
     Definition: to feel attraction toward or take pleasure in
-    Example: 'Paula <b>likes</b> the taste of the coffee with '
+    Example: Paula <b>likes</b> the taste of the coffee with creamer in it.
   - Question: Our thesis ________  everything.
     Answers:
     - Its
@@ -3549,23 +3548,23 @@ MonoBehaviour:
     - Hang
     - Hanges
     - Hangers
-    CorrectAnswer: 2
-    AnswerWord: Hang
+    CorrectAnswer: 1
+    AnswerWord: Hangs
     Classification: Verb
     Definition: "To\_fasten\_or\_support\_something at the\_top\_leaving\_the other\_parts\_free\_to\_move,
       or to be\_held\_in this way."
-    Example: Yae <b>hang</b>  his hand-made lanterns.
+    Example: Yae <b>hangs</b>  his hand-made lanterns.
   - Question: The moon ______  brightly tonight.
     Answers:
     - Shine
     - Shines
     - Show
     - Shiners
-    CorrectAnswer: 1
-    AnswerWord: Shine
+    CorrectAnswer: 2
+    AnswerWord: Shines
     Classification: Verb
     Definition: "To\_send\_out or\_reflect\_light."
-    Example: The moon <b>shine</b> brightly tonight.
+    Example: The moon <b>shines</b> brightly tonight.
   - Question: Teacher Clara _______  activities about nouns.
     Answers:
     - Prepared
@@ -3578,19 +3577,20 @@ MonoBehaviour:
     Definition: "To make or get something or someone\_ready\_for something that will\_happen\_in
       the\_future."
     Example: Teacher Clara <b>prepares</b>  activities about nouns.
-  - Question: Both of her parents often ______  at day as call center agents.
+  - Question: Both of her parents often ______  during the day as call center agents.
     Answers:
     - Work
     - Works
     - Worked
     - Working
-    CorrectAnswer: 2
-    AnswerWord: Works
+    CorrectAnswer: 1
+    AnswerWord: Work
     Classification: Noun
     Definition: activity involving mental or physical effort done in order to achieve
       a purpose or result.
-    Example: Both of her parents often <b>works</b>  at day as call center agents.
-  - Question: I was amazed___________  his intelligence.
+    Example: Both of her parents often <b>work</b>  during the day as call center
+      agents.
+  - Question: I am amazed ___________  his intelligence.
     Answers:
     - At
     - By
@@ -3600,7 +3600,7 @@ MonoBehaviour:
     AnswerWord: By
     Classification: Preposition
     Definition: "Used to show the\_person\_or thing that does something."
-    Example: I was amazed <b>by</b>  his intelligence.
+    Example: I am amazed <b>by</b> his intelligence.
   - Question: He is afflicted _____________  a serious sickness.
     Answers:
     - With
@@ -3612,7 +3612,7 @@ MonoBehaviour:
     Classification: Preposition
     Definition: "To make or get something or someone\_ready\_for something that will\_happen\_in
       the\_future."
-    Example: He is afflicted <b>with</b>  a serious sickness.
+    Example: He is afflicted <b>with</b> a serious sickness.
   - Question: You must apologize _____________  him for your bad attitude.
     Answers:
     - To
@@ -3623,8 +3623,8 @@ MonoBehaviour:
     AnswerWord: To
     Classification: Preposition
     Definition: "Used before a\_verb\_to show that it is in the\_infinitive."
-    Example: You must apologize <b>to</b>  him for your bad attitude.
-  - Question: He often boasts __________   his aristocratic upbringing.
+    Example: You must apologize <b>to</b> him for your bad attitude.
+  - Question: He often boasts __________  his aristocratic upbringing.
     Answers:
     - On
     - About
@@ -3632,7 +3632,7 @@ MonoBehaviour:
     - By
     CorrectAnswer: 2
     AnswerWord: About
-    Classification: Prepoistion
+    Classification: Preposition
     Definition: "On the\_subject\_of, or\_connected\_with."
     Example: He often boasts <b>about</b>   his aristocratic upbringing.
   - Question: "Don\u2019t mess ____________  other people\u2019s feelings."
@@ -3646,43 +3646,44 @@ MonoBehaviour:
     Classification: Preposition
     Definition: "To make or get something or someone\_ready\_for something that will\_happen\_in
       the\_future."
-    Example: "Don\u2019t mess  <b>with</b> other people\u2019s feelings."
-  - Question: She decided to call ___________  the teacher.
+    Example: "Don\u2019t mess <b>with</b> other people\u2019s feelings."
+  - Question: She decided ___________ call the teacher.
     Answers:
     - At
     - On
     - For
     - To
-    CorrectAnswer: 2
-    AnswerWord: On
-    Classification: Preposition
-    Definition: "Used to show that something is in a\_position\_above something\_else\_and\_touching\_it,
-      or that something is\_moving\_into such a\_position."
-    Example: She decided to call <b>on</b>  the teacher.
-  - Question: She has been charged _____________  hurting of his friend.
-    Answers:
-    - For
-    - By
-    - With
-    - To
-    CorrectAnswer: 1
-    AnswerWord: For
-    Classification: Preposition
-    Definition: "Intended\_to be given to."
-    Example: She has been charged <b>for</b>  hurting of his friend.
-  - Question: After the singing competition, the judges were comparing their judgement
-      scores _____  each other.
-    Answers:
-    - To
-    - For
-    - With
-    - By
     CorrectAnswer: 4
-    AnswerWord: By
+    AnswerWord: To
     Classification: Preposition
-    Definition: "Used to show the\_person\_or thing that does something."
-    Example: After the singing competition, the judges were comparing their judgement
-      scores <b>by</b> each other.
+    Definition: Used before a verb to show that it is in the infinitive.
+    Example: She decided <b>to</b> call the teacher.
+  - Question: She has been charged _____________  hurting his friend.
+    Answers:
+    - For
+    - By
+    - With
+    - To
+    CorrectAnswer: 3
+    AnswerWord: With
+    Classification: Preposition
+    Definition: Used to say that people or things are in a place together or are
+      doing something together.
+    Example: She has been charged <b>with</b> hurting his friend.
+  - Question: After the singing competition, the judges were comparing their scores
+      _____  each other.
+    Answers:
+    - To
+    - For
+    - With
+    - By
+    CorrectAnswer: 3
+    AnswerWord: With
+    Classification: Preposition
+    Definition: Used to say that people or things are in a place together or are
+      doing something together.
+    Example: After the singing competition, the judges were comparing their scores
+      <b>with</b> each other.
   - Question: We went out ___________  the thunderstorm.
     Answers:
     - However
@@ -3693,7 +3694,7 @@ MonoBehaviour:
     AnswerWord: In Spite of
     Classification: Preposition
     Definition: Without being affected by the particular factor mentioned.
-    Example: We went out <b>in spite of</b>  the thunderstorm.
+    Example: We went out <b>in spite of</b> the thunderstorm.
   - Question: He passed the exam ____________  his teacher.
     Answers:
     - Because of
@@ -3704,7 +3705,7 @@ MonoBehaviour:
     AnswerWord: Because of
     Classification: Preposition
     Definition: On account of; by reason of.
-    Example: He passed the exam <b>because of</b>  his teacher.
+    Example: He passed the exam <b>because of</b> his teacher.
   - Question: The old woman was ___________  by a rabid monkey.
     Answers:
     - Bitten
