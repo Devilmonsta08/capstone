@@ -3449,7 +3449,7 @@ MonoBehaviour:
     CorrectAnswer: 2
     AnswerWord: Spied
     Classification: Noun
-    Definition: "A person\_who\_secretly\_collects\_and\_reports\_information\_about
+    Definition: "A person who\_secretly\_collects\_and\_reports\_information\_about
       the\_activities\_of another\_country\_or\_organization"
     Example: An unknown man <b>spied</b> on me.
   - Question: "A lady ________, \u201CStop!\u201D "
