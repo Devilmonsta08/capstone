@@ -9,9 +9,10 @@ public class Dictionary : MonoBehaviour
 {
     [SerializeField] private CharacterDatabase charDB;
     [SerializeField] private GameObject textTemplate, NoContentTxt;
+    [SerializeField] private Transform definitionPanel;
     private GameObject g;
 
-    [SerializeField] private TextMeshProUGUI word, classification, definition;
+    [SerializeField] private TextMeshProUGUI word, classification, definition, example;
 
     private void OnEnable()
     {
@@ -22,7 +23,7 @@ public class Dictionary : MonoBehaviour
             for (int i = 0; i < charDB.AnsweredQnA.Count; i++)
             {
                 g = Instantiate(textTemplate, transform);
-                g.GetComponent<TextMeshProUGUI>().text = charDB.AnsweredQnA[i].Answers[charDB.AnsweredQnA[i].CorrectAnswer - 1];
+                g.GetComponent<TextMeshProUGUI>().text = charDB.AnsweredQnA[i].AnswerWord;
                 g.SetActive(true);
             }
 
@@ -33,6 +34,7 @@ public class Dictionary : MonoBehaviour
             word.text = charDB.AnsweredQnA[0].AnswerWord;
             classification.text = charDB.AnsweredQnA[0].Classification;
             definition.text = charDB.AnsweredQnA[0].Definition;
+            example.text = "<b>Example:</b>\n" + charDB.AnsweredQnA[0].Example;
         }
         else
         {
@@ -54,10 +56,22 @@ public class Dictionary : MonoBehaviour
 
     public void ShowDefinition()
     {
-        Debug.Log("hello");
+        definitionPanel.GetComponent<VerticalLayoutGroup>().enabled = false;
         int wordIndex = EventSystem.current.currentSelectedGameObject.transform.GetSiblingIndex();
         word.text = charDB.AnsweredQnA[wordIndex].AnswerWord;
         classification.text = charDB.AnsweredQnA[wordIndex].Classification;
         definition.text = charDB.AnsweredQnA[wordIndex].Definition;
+        example.text = "<b>Example:</b>\n" + charDB.AnsweredQnA[wordIndex].Example;
+
+        StartCoroutine(refreshLayout());
     }
+
+    private IEnumerator refreshLayout()
+    {
+        //LayoutRebuilder.ForceRebuildLayoutImmediate(definitionPanel.GetComponent<RectTransform>());
+        //LayoutRebuilder.ForceRebuildLayoutImmediate(definitionPanel.GetChild(0).GetComponent<RectTransform>());
+        yield return new WaitForSeconds(0.01f);
+        definitionPanel.GetComponent<VerticalLayoutGroup>().enabled = true;
+    }
+
 }
