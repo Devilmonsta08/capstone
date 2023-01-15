@@ -33,10 +33,13 @@ public class Dictionary : MonoBehaviour
             definition.gameObject.SetActive(true);
             example.gameObject.SetActive(true);
 
+            definitionPanel.GetComponent<VerticalLayoutGroup>().enabled = false;
             word.text = charDB.AnsweredQnA[0].AnswerWord;
             classification.text = charDB.AnsweredQnA[0].Classification;
             definition.text = charDB.AnsweredQnA[0].Definition;
             example.text = "<b>Example:</b>\n" + charDB.AnsweredQnA[0].Example;
+
+            StartCoroutine(refreshLayout());
         }
         else
         {
@@ -48,6 +51,7 @@ public class Dictionary : MonoBehaviour
             NoContentTxt.SetActive(true);
         }
     }
+
 
     private void OnDisable()
     {

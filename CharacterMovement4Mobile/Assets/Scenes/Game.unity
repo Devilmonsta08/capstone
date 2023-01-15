@@ -14022,6 +14022,7 @@ GameObject:
   - component: {fileID: 838032730}
   - component: {fileID: 838032732}
   - component: {fileID: 838032731}
+  - component: {fileID: 838032733}
   m_Layer: 5
   m_Name: TutorialPanel
   m_TagString: Untagged
@@ -14088,6 +14089,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 838032729}
   m_CullTransparentMesh: 1
+--- !u!114 &838032733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 838032729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 370bf5d13d87afd488a0f7eb309fe7dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  charDB: {fileID: 11400000, guid: 9f1ade49099cbec4a9797fa6b1f8ac19, type: 2}
+  tutorialPanel: {fileID: 838032729}
 --- !u!1 &857492240
 GameObject:
   m_ObjectHideFlags: 0
@@ -14774,10 +14789,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 242573997}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 838032733}
+        m_TargetAssemblyTypeName: Tutorial, Assembly-CSharp
+        m_MethodName: OneTutorial
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -39907,7 +39922,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1628602383
 Animator:
-  serializedVersion: 5
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -39924,7 +39939,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!50 &1628602384
 Rigidbody2D:
   serializedVersion: 4

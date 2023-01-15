@@ -1,8 +1,10 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Net.NetworkInformation;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.TextCore.Text;
 
 public class PlayerSpawner : MonoBehaviour
@@ -16,6 +18,25 @@ public class PlayerSpawner : MonoBehaviour
 
     [SerializeField] private SaveLoad saveLoad;
     [SerializeField] private Transform characterPosition;
+
+    private void OnEnable()
+    {
+        if (SceneManager.GetActiveScene().name == "Game")
+        {
+            foreach (string enemy in characterDB.enemiesDefeated)
+            {
+                Destroy(GameObject.Find(enemy));
+            }
+        }
+        else if (SceneManager.GetActiveScene().name == "GameMap2")
+        {
+            foreach (string enemy in characterDB.enemiesDefeated)
+            {
+                if (GameObject.Find(enemy) != null)
+                    Destroy(GameObject.Find(enemy));
+            }
+        }
+    }
 
     private void OnApplicationQuit()
     {

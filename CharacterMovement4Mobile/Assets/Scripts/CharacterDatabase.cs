@@ -16,6 +16,7 @@ public class CharacterDatabase : ScriptableObject
 	public Vector3 playerPosition;
 	public string enemyName;
 	public bool isWin;
+	public bool tutorial;
 
 	public List<string> enemiesDefeated;
 

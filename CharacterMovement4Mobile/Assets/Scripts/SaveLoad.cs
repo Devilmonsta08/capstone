@@ -20,12 +20,20 @@ public class SaveLoad : MonoBehaviour
 
         charDB.charName = data.charName;
         charDB.charGender  = data.charGender;
+        charDB.tutorial = data.tutorial;
 
         charDB.enemiesDefeated = data.enemiesDefeated;
         if(SceneManager.GetActiveScene().name == "Game")
         {
             foreach (string enemy in charDB.enemiesDefeated)
             {
+                Destroy(GameObject.Find(enemy));
+            }
+        }else if(SceneManager.GetActiveScene().name == "GameMap2")
+        {
+            foreach (string enemy in charDB.enemiesDefeated)
+            {
+                if(GameObject.Find(enemy) != null)
                 Destroy(GameObject.Find(enemy));
             }
         }
@@ -37,5 +45,6 @@ public class SaveLoad : MonoBehaviour
         characterPosition.position = charDB.playerPosition;
 
         charDB.QnA = data.QnA;
+        charDB.AnsweredQnA = data.AnsweredQnA;
     }
 }

@@ -148,6 +148,11 @@ public class BattleSystem : MonoBehaviour
          
     }
 
+    private void OnEnable()
+    {
+        
+    }
+
     public void PlayerAttack()
     {
         

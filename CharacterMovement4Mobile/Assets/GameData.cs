@@ -16,10 +16,12 @@ public class GameData
     public float[] playerPosition;
     public string enemyName;
     public bool isWin;
+    public bool tutorial;
 
     public List<string> enemiesDefeated;
 
     public List<QuestionAndAnswer> QnA;
+    public List<QuestionAndAnswer> AnsweredQnA;
 
     public GameData(CharacterDatabase charDB)
     {
@@ -28,6 +30,7 @@ public class GameData
         charName = charDB.charName;
         charGender = charDB.charGender;
         charHealth = charDB.charHealth;
+        tutorial = charDB.tutorial;
 
         playerPosition = new float[3];
         playerPosition[0] = charDB.playerPosition.x;
@@ -36,5 +39,6 @@ public class GameData
 
         enemiesDefeated = charDB.enemiesDefeated;
         QnA = charDB.QnA;
+        AnsweredQnA = charDB.AnsweredQnA;
     }
 }
