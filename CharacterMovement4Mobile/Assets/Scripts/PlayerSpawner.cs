@@ -80,12 +80,14 @@ public class PlayerSpawner : MonoBehaviour
             artworkSprite.sprite = Resources.Load<Sprite>("Characters/BoyCharacter/Man Sprite Char");
             animator.runtimeAnimatorController = Resources.Load("Characters/BoyCharacter/Player") as RuntimeAnimatorController;
         }
-        LoadData();
+        StartCoroutine(LoadData());
     }
 
-    private void LoadData()
+    private IEnumerator LoadData()
     {
-        if(characterDB.isLoad)
+        yield return new WaitForSeconds(0.01f);
+
+        if (characterDB.isLoad)
         {
             saveLoad.Load();
             characterDB.isLoad = false;

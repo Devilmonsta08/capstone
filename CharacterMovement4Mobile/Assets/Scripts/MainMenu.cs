@@ -31,7 +31,7 @@ public class MainMenu : MonoBehaviour
     public void LoadGame()
     {
         GameData data = SaveSystem.LoadData();
-        if (data.stageOneProgress == 4)
+        if (data.stageOneProgress >= 4)
         {
             SceneManager.LoadScene(7);
         }else
