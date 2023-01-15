@@ -3201,7 +3201,7 @@ MonoBehaviour:
   - Question: My friends and I  _______   a horror film.
     Answers:
     - Watch
-    - Watched
+    - Watches
     - Wash
     - Wacht
     CorrectAnswer: 1
@@ -3371,7 +3371,7 @@ MonoBehaviour:
     Classification: Noun
     Definition: "A set of\_decisions\_about how to do something in the\_future."
     Example: He <b>plans</b> for the future of his family
-  - Question: 'Jumbled Letters: Prayer ( S W O  R K ) most of the time. '
+  - Question: 'Jumbled Letters: Prayer (S W O  R K) most of the time. '
     Answers:
     - kows
     - Wosrk
@@ -3405,12 +3405,12 @@ MonoBehaviour:
     Definition: A person or thing that is equal to another person or thing in strength,
       speed, or quality
     Example: This top <b>matches</b> my shorts.
-  - Question: 'Jumbled Letters: We (V I T E I N  S) our family friends every fiesta.'
+  - Question: 'Jumbled Letters: We (V I T E I N) our family friends every fiesta.'
     Answers:
     - Sienty
     - Invite
     - Siteniv
-    - Viteins
+    - Vitein
     CorrectAnswer: 2
     AnswerWord: Invite
     Classification: Noun
