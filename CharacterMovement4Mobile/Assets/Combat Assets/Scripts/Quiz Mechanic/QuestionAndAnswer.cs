@@ -8,4 +8,5 @@ public class QuestionAndAnswer
     public string AnswerWord;
     public string Classification;
     public string Definition;
+    public string Example;
 }
