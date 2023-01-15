@@ -25,7 +25,23 @@ public class MainMenu : MonoBehaviour
     public void PlayGame ()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-        charDB.isLoad = false;    
+        
+        charDB.stageOneProgress = 0;
+        charDB.charName = "";
+        charDB.charGender = "";
+        charDB.charHealth = 100;
+
+        charDB.playerPosition = new Vector3(0, 0, 0);
+        charDB.enemyName = "";
+        charDB.isWin = false;
+        charDB.tutorial = false;
+        charDB.combatTutorial = false;
+
+        charDB.enemiesDefeated.Clear();
+        charDB.AnsweredQnA.Clear();
+        
+        charDB.isLoad = false;
+        charDB.isNewGame = true;
     }
 
     public void LoadGame()
