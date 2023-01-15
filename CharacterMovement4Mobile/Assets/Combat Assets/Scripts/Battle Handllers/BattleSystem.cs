@@ -57,7 +57,7 @@ public class BattleSystem : MonoBehaviour
 
     void Start()
     {
-        if(charData.stageOneProgress == 4)
+        if(charData.stageOneProgress >= 4)
         {
             backgroundImg.sprite = Resources.Load<Sprite>("Combat Characters/Background/Forest_Battle_Scene");
         }else
@@ -260,6 +260,7 @@ public class BattleSystem : MonoBehaviour
         {
             // STAGE 1 RESTART
             charData.enemiesDefeated.Clear();
+            charData.stageOneProgress = 0;
         }
         else if(charData.enemiesDefeated.Count >= 4)
         {
@@ -267,10 +268,7 @@ public class BattleSystem : MonoBehaviour
             if(charData.enemiesDefeated.Contains("Goblin")) charData.enemiesDefeated.Remove("Goblin");
             if (charData.enemiesDefeated.Contains("Golem")) charData.enemiesDefeated.Remove("Golem");
             if (charData.enemiesDefeated.Contains("Eyeball")) charData.enemiesDefeated.Remove("Eyeball");
-        }
-        else
-        {
-            // STAGE 3 RESTART
+            charData.stageOneProgress = 4;
         }
     }
 

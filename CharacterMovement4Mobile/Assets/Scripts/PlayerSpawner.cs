@@ -30,7 +30,6 @@ public class PlayerSpawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
         if(!PlayerPrefs.HasKey("selectedOption"))
         {
             selectedOption = 0;
@@ -53,7 +52,6 @@ public class PlayerSpawner : MonoBehaviour
             artworkSprite.sprite = Resources.Load<Sprite>("Characters/BoyCharacter/Man Sprite Char");
             animator.runtimeAnimatorController = Resources.Load("Characters/BoyCharacter/Player") as RuntimeAnimatorController;
         }
-
         LoadData();
     }
 
@@ -62,6 +60,7 @@ public class PlayerSpawner : MonoBehaviour
         if(characterDB.isLoad)
         {
             saveLoad.Load();
+            characterDB.isLoad = false;
         }
     }
 

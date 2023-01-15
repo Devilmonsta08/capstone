@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -16,7 +17,7 @@ public class Dictionary : MonoBehaviour
 
     private void OnEnable()
     {
-        if (charDB.AnsweredQnA != null)
+        if (charDB.AnsweredQnA != null && charDB.AnsweredQnA.Any())
         {
             NoContentTxt.SetActive(false);
 
@@ -30,6 +31,7 @@ public class Dictionary : MonoBehaviour
             word.gameObject.SetActive(true);
             classification.gameObject.SetActive(true);
             definition.gameObject.SetActive(true);
+            example.gameObject.SetActive(true);
 
             word.text = charDB.AnsweredQnA[0].AnswerWord;
             classification.text = charDB.AnsweredQnA[0].Classification;
@@ -41,6 +43,7 @@ public class Dictionary : MonoBehaviour
             word.gameObject.SetActive(false);
             classification.gameObject.SetActive(false);
             definition.gameObject.SetActive(false);
+            example.gameObject.SetActive(false);
 
             NoContentTxt.SetActive(true);
         }
