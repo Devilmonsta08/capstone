@@ -14,6 +14,7 @@ public class CombatTrigger : MonoBehaviour
         charData.playerPosition = player.position;
         charData.enemyName = gameObject.name;
         SceneManager.LoadScene(5);
+        charData.isWin = false;
     }
 
     private void OnEnable() 

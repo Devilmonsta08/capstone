@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
@@ -49,6 +50,7 @@ public class BattleSystem : MonoBehaviour
 
     [SerializeField] private SaveLoad saveLoad;
     [SerializeField] private QuizManager quizManager;
+    [SerializeField] private TextMeshProUGUI playerName, enemyName;
   
 
     public GameObject QandA;
@@ -72,7 +74,10 @@ public class BattleSystem : MonoBehaviour
         PopupMessage2.SetActive(false);
         QandA.SetActive(false);
 
-        // PLAYER
+        playerName.text = charData.charName;
+        enemyName.text = charData.enemyName;
+
+        // PLAYER GUI
         GameObject PlayerGO;
         if (charData.charGender == "Female")
         {
@@ -87,7 +92,7 @@ public class BattleSystem : MonoBehaviour
             PlayerAnim = PlayerGO.transform.GetComponentInChildren<Animator>();
         }
 
-        // ENEMY
+        // ENEMY GUI
         if(charData.enemyName == "Slime")
         {
             GameObject EnemyGo = Instantiate(SlimePrefab, EnemyPostion);

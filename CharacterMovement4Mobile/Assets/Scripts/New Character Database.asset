@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isLoad: 0
   stageOneProgress: 0
-  charName: 
+  charName: Arionne
   charGender: 
   charHealth: 100
   character:
@@ -22,9 +22,9 @@ MonoBehaviour:
     characterSprite: {fileID: 790673351, guid: ce8ddee063a9bb446a185c15a2d5aae6, type: 3}
   - characterName: 
     characterSprite: {fileID: 547071175, guid: 49b82a7adde42264390f1f4d60c6c05c, type: 3}
-  playerPosition: {x: 0, y: 0, z: 0}
-  enemyName: 
-  isWin: 1
+  playerPosition: {x: 0.15841886, y: -5.225972, z: 0}
+  enemyName: Slime
+  isWin: 0
   enemiesDefeated: []
   QnA:
   - Question: My friends and I _______  a horror film.
@@ -34,6 +34,7 @@ MonoBehaviour:
     - Wash
     - Wacht
     CorrectAnswer: 1
+    Definition: 
   - Question: Every Filipino ______his/her share of serving to his/her country
     Answers:
     - Do
@@ -41,6 +42,7 @@ MonoBehaviour:
     - Dos
     - Deos
     CorrectAnswer: 2
+    Definition: 
   - Question: Each scouting organization________  the youth to be obedient and responsible.
     Answers:
     - Teach
@@ -48,6 +50,7 @@ MonoBehaviour:
     - Teaches
     - Trees
     CorrectAnswer: 3
+    Definition: 
   - Question: Manny and Joy _________  their household wastes.
     Answers:
     - Segregtes
@@ -55,6 +58,7 @@ MonoBehaviour:
     - Segregets
     - Secrets
     CorrectAnswer: 2
+    Definition: 
   - Question: Villamiel Family ________ the finances well.
     Answers:
     - Manage
@@ -62,6 +66,7 @@ MonoBehaviour:
     - Manager
     - Manggo
     CorrectAnswer: 2
+    Definition: 
   - Question: Filipino ________ their country, the Philippines.
     Answers:
     - Loves
@@ -69,13 +74,15 @@ MonoBehaviour:
     - Leeves
     - Lots
     CorrectAnswer: 1
-  - Question: 'Our teachers ______ (lives) here in the near subdivision. '
+    Definition: 
+  - Question: 'Our teachers ______  here in the near subdivision. '
     Answers:
     - Loves
     - Lives
     - Gets
     - Legs
     CorrectAnswer: 2
+    Definition: 
   - Question: Our national heroes _______  me.
     Answers:
     - Inspires
@@ -83,6 +90,7 @@ MonoBehaviour:
     - Helps
     - Help
     CorrectAnswer: 1
+    Definition: 
   - Question: The magician _______the door to the hunters.
     Answers:
     - Shoot
@@ -90,6 +98,7 @@ MonoBehaviour:
     - Sheet
     - Shats
     CorrectAnswer: 2
+    Definition: 
   - Question: Magnus, the Good Magician ______  his magic to help the people of Mount
       Magubat.
     Answers:
@@ -98,6 +107,7 @@ MonoBehaviour:
     - Used
     - Usess
     CorrectAnswer: 1
+    Definition: 
   - Question: Maria _______  to read the secret dairy of Magnus.
     Answers:
     - Tries
@@ -105,6 +115,7 @@ MonoBehaviour:
     - Try
     - Tree
     CorrectAnswer: 3
+    Definition: 
   - Question: "The little girl _______ inside the wizard\u2019s lair for the night. "
     Answers:
     - Stays
@@ -112,6 +123,7 @@ MonoBehaviour:
     - Stand
     - Stay
     CorrectAnswer: 4
+    Definition: 
   - Question: "Manuel ___________  the letter to the wizard\u2019s house."
     Answers:
     - Deliver
@@ -119,6 +131,7 @@ MonoBehaviour:
     - Diliver
     - Threw
     CorrectAnswer: 1
+    Definition: 
   - Question: 'Jumbled Letters: She (S M E S S I) Her Granpa'
     Answers:
     - Messis
@@ -126,6 +139,7 @@ MonoBehaviour:
     - Sissem
     - Issems
     CorrectAnswer: 2
+    Definition: 
   - Question: 'Jumbled Letters: He (S P L A N) for the future of his family'
     Answers:
     - Plans
@@ -133,6 +147,7 @@ MonoBehaviour:
     - Slapn
     - Nlaps
     CorrectAnswer: 1
+    Definition: 
   - Question: 'Jumbled Letters: Prayer  ( S W O  R K ) most of the time. '
     Answers:
     - kows
@@ -140,6 +155,7 @@ MonoBehaviour:
     - Works
     - Swork
     CorrectAnswer: 3
+    Definition: 
   - Question: 'Jumbled Letters: It (K O S O L) good on you'
     Answers:
     - Look
@@ -147,6 +163,7 @@ MonoBehaviour:
     - Kools
     - Slook
     CorrectAnswer: 2
+    Definition: 
   - Question: 'Jumbled Letters: This top  (S E M A T C H  ) my shorts.'
     Answers:
     - Matches
@@ -154,6 +171,23 @@ MonoBehaviour:
     - Chatmes
     - Sematch
     CorrectAnswer: 1
+    Definition: 
+  - Question: 'Jumbled Letters: We (V I T E I N  S) our family friends every fiesta.'
+    Answers:
+    - Sienty
+    - Invites
+    - Siteniv
+    - Viteins
+    CorrectAnswer: 2
+    Definition: 
+  - Question: 'Jumbled Letters: You  (E R A) the writters of this modules.'
+    Answers:
+    - Era
+    - Are
+    - Rea
+    - Aer
+    CorrectAnswer: 2
+    Definition: 
   - Question: It is Steve Who Always _______ for our snacks
     Answers:
     - Eat
@@ -161,6 +195,7 @@ MonoBehaviour:
     - Pays
     - Yap
     CorrectAnswer: 2
+    Definition: 
   - Question: An unknown man ________  on me.
     Answers:
     - Spy
@@ -168,6 +203,7 @@ MonoBehaviour:
     - Look
     - Stare
     CorrectAnswer: 1
+    Definition: 
   - Question: "A lady ________ \u201CStop!\u201D "
     Answers:
     - Said
@@ -175,6 +211,7 @@ MonoBehaviour:
     - Said
     - Tells To
     CorrectAnswer: 3
+    Definition: 
   - Question: An orange butterlfy ___________  in the house.
     Answers:
     - Ylf
@@ -182,6 +219,7 @@ MonoBehaviour:
     - Flies
     - Flow
     CorrectAnswer: 2
+    Definition: 
   - Question: Christian _________  playing badminton.
     Answers:
     - Enjoy
@@ -189,6 +227,7 @@ MonoBehaviour:
     - Enjoyed
     - Enjoies
     CorrectAnswer: 1
+    Definition: 
   - Question: The adults __________  sure of their chosen games.
     Answers:
     - Be
@@ -196,6 +235,7 @@ MonoBehaviour:
     - Likes
     - Looks
     CorrectAnswer: 1
+    Definition: 
   - Question: 'Paula _________  the taste of the coffee with '
     Answers:
     - Liked
@@ -203,6 +243,7 @@ MonoBehaviour:
     - Lekis
     - Kiles
     CorrectAnswer: 2
+    Definition: 
   - Question: Our thesis ________  everything.
     Answers:
     - Its
@@ -210,6 +251,7 @@ MonoBehaviour:
     - It
     - Is
     CorrectAnswer: 4
+    Definition: 
   - Question: Her parents _____  good about her scores in the Math test.
     Answers:
     - Fills
@@ -217,6 +259,7 @@ MonoBehaviour:
     - Feel
     - Feels
     CorrectAnswer: 3
+    Definition: 
   - Question: She ______  various academic programs.
     Answers:
     - Has
@@ -224,6 +267,7 @@ MonoBehaviour:
     - Haved
     - Had
     CorrectAnswer: 2
+    Definition: 
   - Question: Yae _____  his hand-made lanterns.
     Answers:
     - Hangs
@@ -231,6 +275,7 @@ MonoBehaviour:
     - Hanges
     - Hangers
     CorrectAnswer: 2
+    Definition: 
   - Question: The moon ______  brightly tonight.
     Answers:
     - Shine
@@ -238,6 +283,7 @@ MonoBehaviour:
     - Show
     - Shiners
     CorrectAnswer: 1
+    Definition: 
   - Question: Teacher Clara _______  activities about nouns.
     Answers:
     - Prepared
@@ -245,6 +291,7 @@ MonoBehaviour:
     - Ready
     - Prepares
     CorrectAnswer: 4
+    Definition: 
   - Question: Both of her parents often ______  at day as call center agents.
     Answers:
     - Work
@@ -252,6 +299,7 @@ MonoBehaviour:
     - Worked
     - Working
     CorrectAnswer: 2
+    Definition: 
   - Question: I was amazed___________  his intelligence.
     Answers:
     - At
@@ -259,6 +307,7 @@ MonoBehaviour:
     - To
     - With
     CorrectAnswer: 1
+    Definition: 
   - Question: He is afflicted _____________  a serious sickness.
     Answers:
     - With
@@ -266,6 +315,7 @@ MonoBehaviour:
     - By
     - Of
     CorrectAnswer: 3
+    Definition: 
   - Question: You must apologize _____________  him for your bad attitude.
     Answers:
     - To
@@ -273,6 +323,7 @@ MonoBehaviour:
     - With
     - For
     CorrectAnswer: 1
+    Definition: 
   - Question: He often boasts __________   his aristocratic upbringing.
     Answers:
     - On
@@ -280,6 +331,7 @@ MonoBehaviour:
     - For
     - By
     CorrectAnswer: 0
+    Definition: 
   - Question: "Don\u2019t mess ____________  other people\u2019s feelings."
     Answers:
     - At
@@ -287,6 +339,7 @@ MonoBehaviour:
     - By
     - Over
     CorrectAnswer: 2
+    Definition: 
   - Question: She decided to call ___________  the teacher.
     Answers:
     - At
@@ -294,6 +347,7 @@ MonoBehaviour:
     - For
     - To
     CorrectAnswer: 0
+    Definition: 
   - Question: She has been charged _____________  hurting of his friend.
     Answers:
     - For
@@ -301,6 +355,7 @@ MonoBehaviour:
     - With
     - To
     CorrectAnswer: 1
+    Definition: 
   - Question: After the singing competition, the judges were comparing their judgement
       scores ___________ (By) each other.
     Answers:
@@ -309,6 +364,7 @@ MonoBehaviour:
     - With
     - By
     CorrectAnswer: 4
+    Definition: 
   - Question: 10.We went out ___________  the thunderstorm.
     Answers:
     - However
@@ -316,18 +372,21 @@ MonoBehaviour:
     - In Spite of
     - Instead Of
     CorrectAnswer: 3
-  - Question: He passed the exam ____________ (Because of) his teacher.
+    Definition: 
+  - Question: He passed the exam ____________  his teacher.
     Answers:
     - Because of
     - Becaue
     - In Spite of
     - Because for
     CorrectAnswer: 1
-  - Question: The old woman was ___________ (Bitten) by a rabid monkey.
+    Definition: 
+  - Question: The old woman was ___________  by a rabid monkey.
     Answers:
     - Bitten
     - Bit
     - Bitted
     - Bittened
     CorrectAnswer: 0
+    Definition: 
   AnsweredQnA: []
