@@ -38,6 +38,7 @@ MonoBehaviour:
     AnswerWord: 
     Classification: 
     Definition: 
+    Example: 
   - Question: Every Filipino ______his/her share of serving to his/her country
     Answers:
     - Do
@@ -48,6 +49,7 @@ MonoBehaviour:
     AnswerWord: 
     Classification: 
     Definition: 
+    Example: 
   - Question: Each scouting organization________  the youth to be obedient and responsible.
     Answers:
     - Teach
@@ -58,6 +60,7 @@ MonoBehaviour:
     AnswerWord: 
     Classification: 
     Definition: 
+    Example: 
   - Question: Manny and Joy _________  their household wastes.
     Answers:
     - Segregtes
@@ -68,6 +71,7 @@ MonoBehaviour:
     AnswerWord: 
     Classification: 
     Definition: 
+    Example: 
   - Question: Villamiel Family ________ the finances well.
     Answers:
     - Manage
@@ -78,6 +82,7 @@ MonoBehaviour:
     AnswerWord: 
     Classification: 
     Definition: 
+    Example: 
   - Question: Filipino ________ their country, the Philippines.
     Answers:
     - Loves
@@ -88,6 +93,7 @@ MonoBehaviour:
     AnswerWord: 
     Classification: 
     Definition: 
+    Example: 
   - Question: 'Our teachers ______  here in the near subdivision. '
     Answers:
     - Loves
@@ -98,6 +104,7 @@ MonoBehaviour:
     AnswerWord: 
     Classification: 
     Definition: 
+    Example: 
   - Question: Our national heroes _______  me.
     Answers:
     - Inspires
@@ -108,6 +115,7 @@ MonoBehaviour:
     AnswerWord: 
     Classification: 
     Definition: 
+    Example: 
   - Question: The magician _______the door to the hunters.
     Answers:
     - Shoot
@@ -118,6 +126,7 @@ MonoBehaviour:
     AnswerWord: 
     Classification: 
     Definition: 
+    Example: 
   - Question: Magnus, the Good Magician ______  his magic to help the people of Mount
       Magubat.
     Answers:
@@ -129,6 +138,7 @@ MonoBehaviour:
     AnswerWord: 
     Classification: 
     Definition: 
+    Example: 
   - Question: Maria _______  to read the secret dairy of Magnus.
     Answers:
     - Tries
@@ -139,6 +149,7 @@ MonoBehaviour:
     AnswerWord: 
     Classification: 
     Definition: 
+    Example: 
   - Question: "The little girl _______ inside the wizard\u2019s lair for the night. "
     Answers:
     - Stays
@@ -149,6 +160,7 @@ MonoBehaviour:
     AnswerWord: 
     Classification: 
     Definition: 
+    Example: 
   - Question: "Manuel ___________  the letter to the wizard\u2019s house."
     Answers:
     - Deliver
@@ -159,6 +171,7 @@ MonoBehaviour:
     AnswerWord: 
     Classification: 
     Definition: 
+    Example: 
   - Question: 'Jumbled Letters: She (S M E S S I) Her Granpa'
     Answers:
     - Messis
@@ -169,6 +182,7 @@ MonoBehaviour:
     AnswerWord: 
     Classification: 
     Definition: 
+    Example: 
   - Question: 'Jumbled Letters: He (S P L A N) for the future of his family'
     Answers:
     - Plans
@@ -179,6 +193,7 @@ MonoBehaviour:
     AnswerWord: 
     Classification: 
     Definition: 
+    Example: 
   - Question: 'Jumbled Letters: Prayer  ( S W O  R K ) most of the time. '
     Answers:
     - kows
@@ -189,6 +204,7 @@ MonoBehaviour:
     AnswerWord: 
     Classification: 
     Definition: 
+    Example: 
   - Question: 'Jumbled Letters: It (K O S O L) good on you'
     Answers:
     - Look
@@ -199,6 +215,7 @@ MonoBehaviour:
     AnswerWord: 
     Classification: 
     Definition: 
+    Example: 
   - Question: 'Jumbled Letters: This top  (S E M A T C H  ) my shorts.'
     Answers:
     - Matches
@@ -209,6 +226,7 @@ MonoBehaviour:
     AnswerWord: 
     Classification: 
     Definition: 
+    Example: 
   - Question: 'Jumbled Letters: We (V I T E I N  S) our family friends every fiesta.'
     Answers:
     - Sienty
@@ -219,6 +237,7 @@ MonoBehaviour:
     AnswerWord: 
     Classification: 
     Definition: 
+    Example: 
   - Question: 'Jumbled Letters: You  (E R A) the writters of this modules.'
     Answers:
     - Era
@@ -229,6 +248,7 @@ MonoBehaviour:
     AnswerWord: 
     Classification: 
     Definition: 
+    Example: 
   - Question: It is Steve Who Always _______ for our snacks
     Answers:
     - Eat
@@ -239,6 +259,7 @@ MonoBehaviour:
     AnswerWord: 
     Classification: 
     Definition: 
+    Example: 
   - Question: An unknown man ________  on me.
     Answers:
     - Spy
@@ -249,6 +270,7 @@ MonoBehaviour:
     AnswerWord: 
     Classification: 
     Definition: 
+    Example: 
   - Question: "A lady ________ \u201CStop!\u201D "
     Answers:
     - Said
@@ -259,6 +281,7 @@ MonoBehaviour:
     AnswerWord: 
     Classification: 
     Definition: 
+    Example: 
   - Question: An orange butterlfy ___________  in the house.
     Answers:
     - Ylf
@@ -269,6 +292,7 @@ MonoBehaviour:
     AnswerWord: 
     Classification: 
     Definition: 
+    Example: 
   - Question: Christian _________  playing badminton.
     Answers:
     - Enjoy
@@ -279,6 +303,7 @@ MonoBehaviour:
     AnswerWord: 
     Classification: 
     Definition: 
+    Example: 
   - Question: The adults __________  sure of their chosen games.
     Answers:
     - Be
@@ -289,6 +314,7 @@ MonoBehaviour:
     AnswerWord: 
     Classification: 
     Definition: 
+    Example: 
   - Question: 'Paula _________  the taste of the coffee with '
     Answers:
     - Liked
@@ -299,6 +325,7 @@ MonoBehaviour:
     AnswerWord: 
     Classification: 
     Definition: 
+    Example: 
   - Question: Our thesis ________  everything.
     Answers:
     - Its
@@ -309,6 +336,7 @@ MonoBehaviour:
     AnswerWord: 
     Classification: 
     Definition: 
+    Example: 
   - Question: Her parents _____  good about her scores in the Math test.
     Answers:
     - Fills
@@ -319,6 +347,7 @@ MonoBehaviour:
     AnswerWord: 
     Classification: 
     Definition: 
+    Example: 
   - Question: She ______  various academic programs.
     Answers:
     - Has
@@ -329,6 +358,7 @@ MonoBehaviour:
     AnswerWord: 
     Classification: 
     Definition: 
+    Example: 
   - Question: Yae _____  his hand-made lanterns.
     Answers:
     - Hangs
@@ -339,6 +369,7 @@ MonoBehaviour:
     AnswerWord: 
     Classification: 
     Definition: 
+    Example: 
   - Question: The moon ______  brightly tonight.
     Answers:
     - Shine
@@ -349,6 +380,7 @@ MonoBehaviour:
     AnswerWord: 
     Classification: 
     Definition: 
+    Example: 
   - Question: Teacher Clara _______  activities about nouns.
     Answers:
     - Prepared
@@ -359,6 +391,7 @@ MonoBehaviour:
     AnswerWord: 
     Classification: 
     Definition: 
+    Example: 
   - Question: Both of her parents often ______  at day as call center agents.
     Answers:
     - Work
@@ -369,6 +402,7 @@ MonoBehaviour:
     AnswerWord: 
     Classification: 
     Definition: 
+    Example: 
   - Question: I was amazed___________  his intelligence.
     Answers:
     - At
@@ -379,6 +413,7 @@ MonoBehaviour:
     AnswerWord: 
     Classification: 
     Definition: 
+    Example: 
   - Question: He is afflicted _____________  a serious sickness.
     Answers:
     - With
@@ -389,6 +424,7 @@ MonoBehaviour:
     AnswerWord: 
     Classification: 
     Definition: 
+    Example: 
   - Question: You must apologize _____________  him for your bad attitude.
     Answers:
     - To
@@ -399,6 +435,7 @@ MonoBehaviour:
     AnswerWord: 
     Classification: 
     Definition: 
+    Example: 
   - Question: He often boasts __________   his aristocratic upbringing.
     Answers:
     - On
@@ -409,6 +446,7 @@ MonoBehaviour:
     AnswerWord: 
     Classification: 
     Definition: 
+    Example: 
   - Question: "Don\u2019t mess ____________  other people\u2019s feelings."
     Answers:
     - At
@@ -419,6 +457,7 @@ MonoBehaviour:
     AnswerWord: 
     Classification: 
     Definition: 
+    Example: 
   - Question: She decided to call ___________  the teacher.
     Answers:
     - At
@@ -429,6 +468,7 @@ MonoBehaviour:
     AnswerWord: 
     Classification: 
     Definition: 
+    Example: 
   - Question: She has been charged _____________  hurting of his friend.
     Answers:
     - For
@@ -439,6 +479,7 @@ MonoBehaviour:
     AnswerWord: 
     Classification: 
     Definition: 
+    Example: 
   - Question: After the singing competition, the judges were comparing their judgement
       scores ___________ (By) each other.
     Answers:
@@ -450,6 +491,7 @@ MonoBehaviour:
     AnswerWord: 
     Classification: 
     Definition: 
+    Example: 
   - Question: 10.We went out ___________  the thunderstorm.
     Answers:
     - However
@@ -460,6 +502,7 @@ MonoBehaviour:
     AnswerWord: 
     Classification: 
     Definition: 
+    Example: 
   - Question: He passed the exam ____________  his teacher.
     Answers:
     - Because of
@@ -470,6 +513,7 @@ MonoBehaviour:
     AnswerWord: 
     Classification: 
     Definition: 
+    Example: 
   - Question: The old woman was ___________  by a rabid monkey.
     Answers:
     - Bitten
@@ -480,55 +524,5 @@ MonoBehaviour:
     AnswerWord: 
     Classification: 
     Definition: 
-  AnsweredQnA:
-  - Question: Villamiel Family ________ the finances well.
-    Answers:
-    - Manage
-    - Manages
-    - Manager
-    - Manggo
-    CorrectAnswer: 2
-    AnswerWord: Manages
-    Classification: verb
-    Definition: manage
-  - Question: 'Jumbled Letters: She (S M E S S I) Her Granpa'
-    Answers:
-    - Messis
-    - Misses
-    - Sissem
-    - Issems
-    CorrectAnswer: 2
-    AnswerWord: Misses
-    Classification: verb
-    Definition: eyyyyy
-  - Question: 'Jumbled Letters: We (V I T E I N  S) our family friends every fiesta.'
-    Answers:
-    - Sienty
-    - Invites
-    - Siteniv
-    - Viteins
-    CorrectAnswer: 2
-    AnswerWord: Invites
-    Classification: verb
-    Definition: tara na
-  - Question: Magnus, the Good Magician ______  his magic to help the people of Mount
-      Magubat.
-    Answers:
-    - Use
-    - Uses
-    - Used
-    - Usess
-    CorrectAnswer: 1
-    AnswerWord: Use
-    Classification: verb
-    Definition: awts ginamit ka lang payag ka nun
-  - Question: Manny and Joy _________  their household wastes.
-    Answers:
-    - Segregtes
-    - Segregates
-    - Segregets
-    - Secrets
-    CorrectAnswer: 2
-    AnswerWord: Segregates
-    Classification: verb
-    Definition: san punta? tapon basura
+    Example: 
+  AnsweredQnA: []
