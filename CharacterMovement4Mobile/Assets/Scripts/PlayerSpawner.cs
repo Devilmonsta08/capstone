@@ -3,9 +3,11 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Net.NetworkInformation;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.TextCore.Text;
+using UnityEngine.UI;
 
 public class PlayerSpawner : MonoBehaviour
 {
@@ -18,6 +20,8 @@ public class PlayerSpawner : MonoBehaviour
 
     [SerializeField] private SaveLoad saveLoad;
     [SerializeField] private Transform characterPosition;
+    [SerializeField] private TextMeshProUGUI charName;
+    [SerializeField] private Slider health;
 
     private void OnEnable()
     {
@@ -36,6 +40,9 @@ public class PlayerSpawner : MonoBehaviour
                     Destroy(GameObject.Find(enemy));
             }
         }
+
+        charName.text = characterDB.charName;
+        health.value = characterDB.charHealth;
     }
 
     private void OnApplicationQuit()

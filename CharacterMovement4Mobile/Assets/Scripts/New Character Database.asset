@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isLoad: 0
   stageOneProgress: 7
-  charName: 
+  charName: Arionne
   charGender: 
   charHealth: 10
   character:
@@ -22,9 +22,9 @@ MonoBehaviour:
     characterSprite: {fileID: 790673351, guid: ce8ddee063a9bb446a185c15a2d5aae6, type: 3}
   - characterName: 
     characterSprite: {fileID: 547071175, guid: 49b82a7adde42264390f1f4d60c6c05c, type: 3}
-  playerPosition: {x: -0.6434665, y: -0.9197358, z: 0}
+  playerPosition: {x: 0, y: 0, z: 0}
   enemyName: Eyeball
-  isWin: 1
+  isWin: 0
   tutorial: 1
   enemiesDefeated:
   - Golem
