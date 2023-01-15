@@ -337,7 +337,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: -11.471, y: 0}
-  m_SizeDelta: {x: 1506.776, y: 245.049}
+  m_SizeDelta: {x: 1506.776, y: 400.8756}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!1 &327392897
 GameObject:
@@ -482,6 +482,8 @@ PlayableDirector:
     value: {fileID: 240641107}
   - key: {fileID: -8462076169156749585, guid: faaaf330d4aa4f74c8dff09fb81516b1, type: 2}
     value: {fileID: 109579296}
+  - key: {fileID: 8549750178969936875, guid: faaaf330d4aa4f74c8dff09fb81516b1, type: 2}
+    value: {fileID: 1928114998}
   m_ExposedReferences:
     m_References: []
 --- !u!114 &346174793
@@ -518,7 +520,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 1
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -648,14 +650,14 @@ MonoBehaviour:
   m_text: '@name must find the high-level demons that were sent to the forest and
     defeat them all.'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 16777215
+    rgba: 4294967295
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -741,7 +743,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: -11.471, y: 0}
-  m_SizeDelta: {x: 1506.776, y: 245.049}
+  m_SizeDelta: {x: 1506.776, y: 400.8756}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!1 &750888212
 GameObject:
@@ -848,7 +850,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: -11.471, y: 0}
-  m_SizeDelta: {x: 1506.776, y: 245.049}
+  m_SizeDelta: {x: 1506.776, y: 400.8756}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &958461627
 MonoBehaviour:
@@ -873,14 +875,14 @@ MonoBehaviour:
   m_text: When the demons were defeated in the city, there were demons present in
     the forest.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 16777215
+    rgba: 4294967295
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -1005,7 +1007,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: -11.471, y: 0}
-  m_SizeDelta: {x: 1506.776, y: 245.049}
+  m_SizeDelta: {x: 1506.776, y: 400.8756}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!95 &1168115739
 Animator:
@@ -1050,14 +1052,14 @@ MonoBehaviour:
   m_text: The news will reach the Demon lord, the strongest and most powerful demon
     in the demon clan.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 16777215
+    rgba: 4294967295
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -1187,14 +1189,14 @@ MonoBehaviour:
   m_text: The demon lord will send high-level demons to the city to find and eliminate
     the person that defeated his demons.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 33554431
+    rgba: 4294967295
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -1280,7 +1282,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: -11.471, y: 0}
-  m_SizeDelta: {x: 1506.776, y: 245.049}
+  m_SizeDelta: {x: 1506.776, y: 400.8756}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!1 &1801132875
 GameObject:
@@ -1397,7 +1399,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1928114999
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1415,8 +1417,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 741.83344, y: 481.00006}
-  m_SizeDelta: {x: 313.4532, y: 50}
+  m_AnchoredPosition: {x: 705.3137, y: 481.00006}
+  m_SizeDelta: {x: 386.4919, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1928115000
 MonoBehaviour:
@@ -1451,7 +1453,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Tap to to next
+  m_text: Tap to continue >
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
