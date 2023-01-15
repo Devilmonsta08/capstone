@@ -3242,7 +3242,7 @@ MonoBehaviour:
     - Lots
     CorrectAnswer: 1
     Definition: 
-  - Question: 'Our teachers ______ (lives) here in the near subdivision. '
+  - Question: 'Our teachers ______  here in the near subdivision. '
     Answers:
     - Loves
     - Lives
@@ -3347,7 +3347,7 @@ MonoBehaviour:
     - Viteins
     CorrectAnswer: 2
     Definition: 
-  - Question: 'Jumbled Letters: You  (era) the writters of this modules.'
+  - Question: 'Jumbled Letters: You  (E R A) the writters of this modules.'
     Answers:
     - Era
     - Are
@@ -3540,7 +3540,7 @@ MonoBehaviour:
     - Instead Of
     CorrectAnswer: 3
     Definition: 
-  - Question: He passed the exam ____________ (Because of) his teacher.
+  - Question: He passed the exam ____________  his teacher.
     Answers:
     - Because of
     - Becaue
@@ -3548,7 +3548,7 @@ MonoBehaviour:
     - Because for
     CorrectAnswer: 1
     Definition: 
-  - Question: The old woman was ___________ (Bitten) by a rabid monkey.
+  - Question: The old woman was ___________  by a rabid monkey.
     Answers:
     - Bitten
     - Bit
