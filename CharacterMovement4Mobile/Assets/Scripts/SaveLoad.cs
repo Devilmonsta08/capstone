@@ -21,6 +21,7 @@ public class SaveLoad : MonoBehaviour
         charDB.charName = data.charName;
         charDB.charGender  = data.charGender;
         charDB.tutorial = data.tutorial;
+        charDB.combatTutorial = data.combatTutorial;
 
         charDB.enemiesDefeated = data.enemiesDefeated;
         if(SceneManager.GetActiveScene().name == "Game")

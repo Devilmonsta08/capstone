@@ -1095,6 +1095,7 @@ GameObject:
   - component: {fileID: 378049193}
   - component: {fileID: 378049195}
   - component: {fileID: 378049194}
+  - component: {fileID: 378049196}
   m_Layer: 5
   m_Name: TutorialPanel
   m_TagString: Untagged
@@ -1162,6 +1163,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 378049192}
   m_CullTransparentMesh: 1
+--- !u!114 &378049196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 378049192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8aa9fffb78cc3a74a87348ca79765221, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  charDB: {fileID: 11400000, guid: 9f1ade49099cbec4a9797fa6b1f8ac19, type: 2}
+  tutorialPanel: {fileID: 378049192}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -4639,7 +4654,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1767745425}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 378049196}
+        m_TargetAssemblyTypeName: combatTutorial, Assembly-CSharp
+        m_MethodName: OneTutorial
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1767745425
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -17,6 +17,7 @@ public class GameData
     public string enemyName;
     public bool isWin;
     public bool tutorial;
+    public bool combatTutorial;
 
     public List<string> enemiesDefeated;
 
